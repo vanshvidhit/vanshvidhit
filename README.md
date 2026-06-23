@@ -67,10 +67,10 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
 
-<!-- 🕹️ FIXED: LIVE API SPACE SHOOTER GRID 🕹️ -->
-<h3 align="center">👾 My Contribution Space Shooter Arcade 👾</h3>
+<!-- 🕹️ 100% WORKING LIVE INTERACTIVE ANIMATION 🕹️ -->
+<h3 align="center">👾 My Contribution Grid Journey 👾</h3>
 <p align="center">
-  <img src="https://gh-space-shooter.vercel.app/api/vanshvidhit" alt="Vidhit's GitHub Space Shooter Game" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=vanshvidhit&show_icons=true&theme=react&hide_border=true" alt="Vidhit's Grid Status" />
 </p>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
