@@ -67,10 +67,10 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
 
-<!-- 🕹️ 100% WORKING LIVE INTERACTIVE ANIMATION 🕹️ -->
-<h3 align="center">👾 My Contribution Grid Journey 👾</h3>
+<!-- 🕹️ 100% WORKING LIVE SNAKE CONTRIBUTION GAME 🕹️ -->
+<h3 align="center">🐍 My Contribution Grid Journey 🐍</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vanshvidhit&show_icons=true&theme=react&hide_border=true" alt="Vidhit's Grid Status" />
+  <img src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" alt="Vidhit's Contribution Snake Game" width="100%" />
 </p>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
@@ -81,7 +81,7 @@
 - 🏊‍♂️ Active **competitive swimmer** focusing on discipline, endurance, and strategy.
 - 🎸 **Classical Guitarist** & Wilderness Trekker — exploring complex compositions and remote peaks off the screen.
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.svg" alt="Divider Line" width="1000">
 
 ## 🌐 Connect With Me  
 
