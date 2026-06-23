@@ -6,18 +6,16 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
 
+<!-- 🚀 Dynamic Text Animation 🚀 -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=750&lines=Hi+there!+%F0%9F%91%8B+I'm+Vidhit+Vansh;Full+Stack+MERN+Developer;Co-Founder+at+VexaRent+🏆;Open+Source+%26+Event+Leader" alt="Typing Animation" />
+</p>
+
 <div align="center">
   <a href="https://github.com/vanshvidhit" target="_blank">
     <img src="https://img.shields.io/badge/Explore%20My%20Projects-Click%20Here-6f42c1?style=for-the-badge&logo=github&logoColor=white&labelColor=2c2c2c&color=00c853" alt="GitHub Badge" style="border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);">
   </a>
 </div>
-
-<!-- Typing animation representing your dynamic on-campus roles -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=800&lines=Co-Founder+at+VexaRent+🏆;Lead+Coordinator+at+GDSC+/+DevFest;💻+Full+Stack+MERN+Developer;🚀Lead+Coordinator+at+Smart+India+Hackathon;🏅+Nodal+Gold+Medalist;🌟+TEDx+Event+Organizer;🎬+Bhopal+Film+Festival+Production+Lead" alt="Typing Animation"/>
-  </a>
-</p>
 
 # 👋 Hi, I'm **Vidhit Vansh**
 
@@ -59,12 +57,21 @@
 ### 🏆 **Event Management & Institutional Leadership**
 <div align="left">
 
-✨ I regularly orchestrate, manage, and scale high-profile tech and creative ecosystems on and off campus:  
+✨ I regularly orchestrate, manage, and scale high-profile tech, commercial, and creative ecosystems:  
 
-- **Lead Coordinator Roles:** Successfully managed marquee platforms including the **Smart India Hackathon (SIH)**, **TEDx events**, and **GDSC / DevFest hack-spaces**.
-- **Media & Production Operations:** Commanded logistics, stakeholder pipelines, and character performances for **The Bhopal Film Festival** and distinct professional web series productions.
-- **Ecosystem Representative:** Representing **LNCT Group** across major regional and national-level technology initiatives.
+- **The Bhopal Film Festival (TBFF):** Served as *Production, Promotion & Marketing Co-ordinator*[cite: 1]. Directly managed cross-functional volunteer teams and headed backstage logistics, celebrity scheduling, and tactical venue flow frameworks for the Inaugural Edition at Minto Hall[cite: 1].
+- **Lead Coordinator Roles:** Successfully managed marquee technical platforms including the **Smart India Hackathon (SIH)**, **TEDx events**, and **GDSC / DevFest hack-spaces**.
+- **Media & Production Operations:** Commanded logistics, stakeholder pipelines, and character performances for professional web series productions.
+- **Ecosystem Representative:** Representing **LNCT Group** across major regional and national-level technology and leadership initiatives.
 </div>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
+
+<!-- 🕹️ INTEGRATED ANIMATION AREA: gh-space-shooter.jpg 🕹️ -->
+<h3 align="center">👾 My Contribution Space Shooter Arcade 👾</h3>
+<p align="center">
+  <img src="gh-space-shooter.jpg" alt="Vidhit's GitHub Space Shooter Game" width="100%" />
+</p>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
 
@@ -95,14 +102,12 @@
 ## 💻 Tech Stack & Skills  
 
 <p align="center">
-  <!-- Skillicons styling mirroring Anadi's profile layout -->
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,nodejs,express,mongodb,mysql,sqlite,firebase,py,c,cpp,java,git,github,vscode,postman,figma,linux,windows,bash" alt="My Tech Stack" />
 </p>
 
 ---
 
 <p align="center">
-  <!-- Shields.io additions for real-time and platform ecosystems -->
   <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.io badge" />
   <img src="https://img.shields.io/badge/ServiceNow-293E40?style=for-the-badge&logo=servicenow&logoColor=white" alt="ServiceNow badge" />
   <img src="https://img.shields.io/badge/MERN_Stack-20232a?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="MERN Stack Badge" />
@@ -120,9 +125,7 @@
 ## 📊 Language Breakdown & Profile Traction
 
 <p align="center">
-  <!-- GitHub Top Languages -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshvidhit&theme=react&hide_border=false&layout=compact&langs_count=10&count_private=true" height="200" alt="Top Languages" />
-  <!-- Profile Views Tracker -->
   <img src="https://komarev.com/ghpvc/?username=vanshvidhit&color=blueviolet" height="35" alt="Profile Views Tracker" />
 </p>
 
