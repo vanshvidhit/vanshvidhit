@@ -67,10 +67,15 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
 
-<!-- 🕹️ 100% WORKING LIVE SNAKE CONTRIBUTION GAME 🕹️ -->
-<h3 align="center">🐍 My Contribution Grid Journey 🐍</h3>
+<!-- 🕹️ FIXED LIGHT/DARK ADAPTIVE SNAKE MATRIX ENGINE 🕹️ -->
+<h3 align="center">🐍 My Contribution Grid Journey</h3>
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" alt="Vidhit's Contribution Snake Game" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
 </p>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
@@ -118,19 +123,19 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vanshvidhit&theme=react&hide_border=false&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats" />
-  <img src="https://nirzak-streak-stats.vercel.app/?user=vanshvidhit&theme=react&hide_border=false" height="180" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=vanshvidhit&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&background=0d1117" height="180" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" height="180" alt="GitHub Streak" />
 </p>
 
 ## 📊 Language Breakdown & Profile Traction
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshvidhit&theme=react&hide_border=false&layout=compact&langs_count=10&count_private=true" height="200" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshvidhit&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&count_private=true&background=0d1117" height="200" alt="Top Languages" />
   <img src="https://komarev.com/ghpvc/?username=vanshvidhit&color=blueviolet" height="35" alt="Profile Views Tracker" />
 </p>
 
 ## 📈 Contribution Graph
-[![Vidhit’s github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=react-dark&hide_border=true)](https://github.com/vanshvidhit)
+[![Vidhit’s github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117)](https://github.com/vanshvidhit)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
 
