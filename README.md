@@ -1,24 +1,26 @@
-<h3 align="center"> ─── ❖ ─── ARCHITECTING DIGITAL SPACES ─── ❖ ─── </h3>
+<h1 align="center">🌟 Vidhit Vansh — Engineering the Future through Full-Stack & AI Innovation</h1>
+
+<h2 align="center">
+  <b>Co-Founder @ VexaRent | Full-Stack MERN Developer | Lead Event Coordinator | Guinness World Record Campaign Achiever | Nodal Gold Medalist @ Kabaddi | Technical Event Extraordinaire | LNCT Student Leader</b>
+</h2>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
+
+<!-- 🚀 Dynamic Text Animation 🚀 -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=750&lines=Hi+there!+%F0%9F%91%8B+I'm+Vidhit+Vansh;Full+Stack+MERN+Developer;Co-Founder+at+VexaRent+🏆;Open+Source+%26+Event+Leader" alt="Typing Animation" />
+</p>
 
 <div align="center">
-  <!-- Dynamic Cyber Wave Header (GitHub Safe) -->
-  <img src="https://capsule-render.vercel.app/type=waving&color=gradient&customColorList=00f2fe,4facfe&height=180&section=header&text=VIDHIT%20VANSH&fontSize=65&fontColor=ffffff&animation=twinkling&fontAlignY=45" width="100%" alt="Cyber Wave Banner" />
-
-  <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&weight=800&size=24&pause=1000&color=00f2fe&center=true&vCenter=true&width=800&lines=FULL-STACK+DEVELOPER;CO-FOUNDER+@+VEXARENT;PRODUCTION+DIRECTOR+@+TBFF;GUINNESS+WORLD+RECORD+ACHIEVER" alt="Typing Matrix" />
-  </p>
-
-  <p align="center">
-    <strong>Breaking out of tutorials by engineering production-ready applications from the ground up.</strong>
-  </p>
-
-  <!-- Real-time Dynamic Stats & Widgets -->
-  <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
-  </p>
+  <a href="https://github.com/vanshvidhit" target="_blank">
+    <img src="https://img.shields.io/badge/Explore%20My%20Projects-Click%20Here-6f42c1?style=for-the-badge&logo=github&logoColor=white&labelColor=2c2c2c&color=00c853" alt="GitHub Badge" style="border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);">
+  </a>
 </div>
 
----
+# 👋 Hi, I'm **Vidhit Vansh**
+
+💻 Computer Science & Engineering Student | Startup Founder | Tech Enthusiast
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
 
 ## 🌌 Highlights — Startups, Scale & Top Achievements
 
@@ -29,70 +31,111 @@
 
 ---
 
-### 🏆 Event Management & Institutional Leadership
+### Core Applications Ecosystem 
+
+<table>
+  <tr>
+    <td align="center"><b>RideFlow (Real-time Cab Booking)</b><br>MERN stack application engineered with Socket.io for live updates, low-latency tracking, and high user throughput.</td>
+    <td align="center"><b>HouseHunt (Property Ecosystem)</b><br>A transparent rental ecosystem giving users complete transaction visibility and streamlined property search capabilities.</td>
+    <td align="center"><b>VexaRent Core Infrastructure</b><br>Building out scalable logistics engines, service layers, and commercial architecture for an active startup.</td>
+  </tr>
+</table>
+
+# 🚀 Startups & Entrepreneurship
+
+### 🏢 **VexaRent — Registered MSME Startup**
+<div align="left">
+💡 **Building Next-Gen Logistics & Rental Solutions:**  
+
+- Officially **co-founded and signed MOUs** to deploy intelligent service-fee architectures.
+- Managing data infrastructure, vendor allocations, and digital-first logistics pipelines.
+- Focused on injecting absolute market transparency into traditional rental systems.
+</div>
+
+---
+
+### 🏆 **Event Management & Institutional Leadership**
+<div align="left">
 
 ✨ I regularly orchestrate, manage, and scale high-profile tech, commercial, and creative ecosystems:  
 
 - **The Bhopal Film Festival (TBFF):** Served as *Production, Promotion & Marketing Co-ordinator*. Directly managed cross-functional volunteer teams and headed backstage logistics, celebrity scheduling, and tactical venue flow frameworks for the Inaugural Edition at Minto Hall.
 - **Lead Coordinator Roles:** Successfully managed marquee technical platforms including the **Smart India Hackathon (SIH)**, **TEDx events**, and **GDSC / DevFest hack-spaces**.
 - **Media & Production Operations:** Commanded logistics, stakeholder pipelines, and character performances for professional web series productions.
-- **Ecosystem Representative:** Proudly representing the **LNCT Group** across major regional and national-level technology and leadership initiatives.
+- **Ecosystem Representative:** Representing **LNCT Group** across major regional and national-level technology and leadership initiatives.
+</div>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
 
-## 🏅 Beyond The Code (Athletics & Art)
+<!-- 🕹️ 100% WORKING LIVE SNAKE CONTRIBUTION GAME 🕹️ -->
+<h3 align="center">🐍 My Contribution Grid Journey 🐍</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" alt="Vidhit's Contribution Snake Game" width="100%" />
+</p>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
+
+# 🏅 Beyond The Code (Athletics & Art)
 
 - 🥇 **Nodal Gold Medalist** in Kabaddi — holding top honors at the nodal tournament level representing LNCT.
 - 🏊‍♂️ Active **competitive swimmer** focusing on discipline, endurance, and strategy.
 - 🎸 **Classical Guitarist** & Wilderness Trekker — exploring complex compositions and remote peaks off the screen.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.svg" alt="Divider Line" width="1000">
 
-### 🛠️ Tech Stack & Ecosystem
-
-<div align="center">
-  <!-- Interactive-looking 3D Pill Badges -->
-  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
-  <img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
-  <img src="https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&logoColor=white" />
-  <img src="https://img.shields.io/badge/ServiceNow-293E40?style=for-the-badge&logo=servicenow&logoColor=white" />
-</div>
-
----
-
-### 🚀 Active Commercial Deployments
-
-<blockquote>
-<strong>⚡ RideFlow — Real-Time Mobility Engine</strong><br/>
-Built completely using the MERN stack and Socket.io to manage concurrent live location tracking matrix data and state synchronization loops across drivers and users without throughput lag.
-</blockquote>
-
-<blockquote>
-<strong>🏡 HouseHunt — High-Transparency Rental Platform</strong><br/>
-An end-to-end multi-vendor full-stack web application engineered to optimize database queries, structural layout transparency, and logistics pipeline updates for rental ecosystems.
-</blockquote>
-
----
-
-### 🐍 Live Contribution Grid Journey
+## 🌐 Connect With Me  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" alt="Vidhit's Contribution Snake Game" width="100%" />
+  <a href="https://www.linkedin.com/in/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="50" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/vanshvidhit" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github" height="50" alt="GitHub" />
+  </a>
+  <a href="mailto:your-email@example.com" target="_blank">
+    <img src="https://skillicons.dev/icons?i=gmail" height="50" alt="Email" />
+  </a>
+</p>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
+
+## 💻 Tech Stack & Skills  
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,nodejs,express,mongodb,mysql,sqlite,firebase,py,c,cpp,java,git,github,vscode,postman,figma,linux,windows,bash" alt="My Tech Stack" />
 </p>
 
 ---
 
-### 📊 System Analytics
+<p align="center">
+  <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.io badge" />
+  <img src="https://img.shields.io/badge/ServiceNow-293E40?style=for-the-badge&logo=servicenow&logoColor=white" alt="ServiceNow badge" />
+  <img src="https://img.shields.io/badge/MERN_Stack-20232a?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="MERN Stack Badge" />
+</p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vanshvidhit&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&background=0d1117" alt="Core Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshvidhit&layout=compact&theme=tokyonight&hide_border=true&background=0d1117" alt="Top Languages" width="48%" />
-</div>
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=vanshvidhit&theme=react&hide_border=false&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats" />
+  <img src="https://nirzak-streak-stats.vercel.app/?user=vanshvidhit&theme=react&hide_border=false" height="180" alt="GitHub Streak" />
+</p>
+
+## 📊 Language Breakdown & Profile Traction
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshvidhit&theme=react&hide_border=false&layout=compact&langs_count=10&count_private=true" height="200" alt="Top Languages" />
+  <img src="https://komarev.com/ghpvc/?username=vanshvidhit&color=blueviolet" height="35" alt="Profile Views Tracker" />
+</p>
+
+## 📈 Contribution Graph
+[![Vidhit’s github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=react-dark&hide_border=true)](https://github.com/vanshvidhit)
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 ---
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/type=waving&color=00f2fe&height=60&section=footer" width="100%" />
-</div>
+[![](https://visitcount.itsvg.in/api?id=vanshvidhit&icon=1&color=3)](https://visitcount.itsvg.in)
