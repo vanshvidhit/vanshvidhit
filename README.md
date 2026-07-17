@@ -1,209 +1,244 @@
-import gen as G
+<!--
+  ============================================================================
+  SETUP CHECKLIST — read this before you push
+  ============================================================================
+  1. Commit banner.svg (the hero banner) to this repo at:
+       assets/banner.svg
+     It's a single file that auto-switches colors via CSS
+     prefers-color-scheme — no separate dark/light versions needed.
 
-DARK = G.theme_dark()
-LIGHT = G.theme_light()
+  2. Replace every YOUR_LINKEDIN / YOUR_EMAIL / YOUR_TWITTER placeholder
+     with your real handles.
 
-VAR_MAP = {
-    "bg": "bg", "panel": "panel", "panel_op": "panel-op", "border": "border",
-    "text": "text", "muted": "muted",
-    "glow1": "glow1", "glow2": "glow2", "glow3": "glow3",
-    "cursor": "cursor", "food": "food", "food_stroke": "food-stroke",
-}
+  3. Replace repo-name placeholders in "Featured Projects" (rideflow,
+     househunt, vexarent-core) with your actual repo slugs so the links
+     and pinned-card widgets resolve.
 
-def var_theme():
-    t = dict(name="single")
-    for k, css in VAR_MAP.items():
-        t[k] = "var(--{})".format(css)
-    t["grad"] = ["var(--grad0)", "var(--grad1)", "var(--grad2)"]
-    t["ascii_grad"] = ["var(--grad0)", "var(--grad1)"]  # not used for filter math here
-    t["snake"] = ["var(--snake0)", "var(--snake1)"]
-    return t
+  4. The real contribution-snake near the bottom needs the Platane/snk
+     GitHub Action running on a schedule, writing to an "output" branch.
+     If you already have that workflow (your old README referenced it),
+     leave it as is — it will keep working here unchanged.
 
+  5. Swap username "vanshvidhit" anywhere it appears if that ever changes.
+  ============================================================================
+-->
 
-def css_block():
-    def rules(t, indent=""):
-        lines = [
-            "{i}--bg:{bg};".format(i=indent, bg=t["bg"]),
-            "{i}--panel:{panel};".format(i=indent, panel=t["panel"]),
-            "{i}--panel-op:{op};".format(i=indent, op=t["panel_op"]),
-            "{i}--border:{b};".format(i=indent, b=t["border"]),
-            "{i}--text:{c};".format(i=indent, c=t["text"]),
-            "{i}--muted:{c};".format(i=indent, c=t["muted"]),
-            "{i}--grad0:{c};".format(i=indent, c=t["grad"][0]),
-            "{i}--grad1:{c};".format(i=indent, c=t["grad"][1]),
-            "{i}--grad2:{c};".format(i=indent, c=t["grad"][2]),
-            "{i}--glow1:{c};".format(i=indent, c=t["glow1"]),
-            "{i}--glow2:{c};".format(i=indent, c=t["glow2"]),
-            "{i}--glow3:{c};".format(i=indent, c=t["glow3"]),
-            "{i}--cursor:{c};".format(i=indent, c=t["cursor"]),
-            "{i}--food:{c};".format(i=indent, c=t["food"]),
-            "{i}--food-stroke:{c};".format(i=indent, c=t["food_stroke"]),
-            "{i}--snake0:{c};".format(i=indent, c=t["snake"][0]),
-            "{i}--snake1:{c};".format(i=indent, c=t["snake"][1]),
-        ]
-        return "\n".join(lines)
+<div align="center">
 
-    css = []
-    css.append(":root {\n" + rules(DARK, "  ") + "\n}")
-    css.append("@media (prefers-color-scheme: light) {\n  :root {\n" + rules(LIGHT, "    ") + "\n  }\n}")
-    css.append(".vlight { display: none; }")
-    css.append("@media (prefers-color-scheme: light) {\n  .vdark { display: none; }\n  .vlight { display: inline; }\n}")
-    return "<style>\n" + "\n".join(css) + "\n</style>"
+<img src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/main/assets/banner.svg" alt="Vidhit Vansh — hero banner" width="100%" />
 
+<br/>
 
-def build_ascii_dual(vt):
-    c0d, c1d = G.hex_to_rgb(DARK["ascii_grad"][0]), G.hex_to_rgb(DARK["ascii_grad"][1])
-    c0l, c1l = G.hex_to_rgb(LIGHT["ascii_grad"][0]), G.hex_to_rgb(LIGHT["ascii_grad"][1])
-    n = lambda c: tuple(v / 255.0 for v in c)
-    c0dn, c1dn, c0ln, c1ln = n(c0d), n(c1d), n(c0l), n(c1l)
+<img src="https://img.shields.io/badge/MSME_Registered-VexaRent-6f42c1?style=for-the-badge&labelColor=0d1117" alt="MSME badge"/>
+<img src="https://img.shields.io/badge/ServiceNow-Certified-293E40?style=for-the-badge&logo=servicenow&logoColor=white&labelColor=0d1117" alt="ServiceNow badge"/>
+<img src="https://img.shields.io/badge/Guinness_World_Record-Campaign_Achiever-00c853?style=for-the-badge&labelColor=0d1117" alt="GWR badge"/>
+<img src="https://komarev.com/ghpvc/?username=vanshvidhit&style=for-the-badge&color=2E9EF7&label=PROFILE+VIEWS" alt="profile views"/>
 
-    box_x, box_y = 60, 84
-    box_w, box_h = 364, 372
-    img_ar = G._PORTRAIT_W / G._PORTRAIT_H
-    box_ar = box_w / box_h
-    if img_ar > box_ar:
-        draw_w = box_w
-        draw_h = box_w / img_ar
-    else:
-        draw_h = box_h
-        draw_w = box_h * img_ar
-    draw_x = box_x + (box_w - draw_w) / 2
-    draw_y = box_y + (box_h - draw_h) / 2
+</div>
 
-    glow_id = "portraitGlow"
-    defs_out = []
+<br/>
 
-    def make_filter(fid, r0, r1, g0, g1, b0, b1):
-        return (
-            '<filter id="{fid}" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">'
-            '<feComponentTransfer>'
-            '<feFuncR type="table" tableValues="{r0:.4f} {r1:.4f}"/>'
-            '<feFuncG type="table" tableValues="{g0:.4f} {g1:.4f}"/>'
-            '<feFuncB type="table" tableValues="{b0:.4f} {b1:.4f}"/>'
-            '</feComponentTransfer>'
-            '<feColorMatrix type="hueRotate" values="0">'
-            '<animate attributeName="values" values="0;22;0;-22;0" dur="10s" repeatCount="indefinite"/>'
-            '</feColorMatrix>'
-            '</filter>'
-        ).format(fid=fid, r0=r0, r1=r1, g0=g0, g1=g1, b0=b0, b1=b1)
+## 👋 About Me
 
-    defs_out.append(make_filter("portraitDuoDark", c0dn[0], c1dn[0], c0dn[1], c1dn[1], c0dn[2], c1dn[2]))
-    defs_out.append(make_filter("portraitDuoLight", c0ln[0], c1ln[0], c0ln[1], c1ln[1], c0ln[2], c1ln[2]))
-    defs_out.append('<filter id="{gid}" x="-60%" y="-60%" width="220%" height="220%">'
-                     '<feGaussianBlur stdDeviation="9"/></filter>'.format(gid=glow_id))
+I'm **Vidhit Vansh** — a full-stack engineer and startup co-founder who ships real products, not just side projects. I build MERN applications with real-time infrastructure, co-run an MSME-registered rental startup, and lead the teams behind large-scale tech and cultural events across my campus and city.
 
-    defs_out.append('<clipPath id="portraitReveal"><rect x="{x:.1f}" y="{y2:.1f}" width="{w:.1f}" height="0">'
-                     '<animate attributeName="height" values="0;{h:.1f}" begin="0.3s" dur="1.3s" '
-                     'fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>'
-                     '<animate attributeName="y" values="{ybot:.1f};{y2:.1f}" begin="0.3s" dur="1.3s" '
-                     'fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>'
-                     '</rect></clipPath>'.format(x=draw_x - 6, y2=draw_y - 6, w=draw_w + 12, h=draw_h + 12,
-                                                  ybot=draw_y - 6 + draw_h + 12))
-    defs_out.append('<clipPath id="portraitBounds"><rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}"/></clipPath>'
-                     .format(x=draw_x, y=draw_y, w=draw_w, h=draw_h))
-    defs_out.append('<image id="portraitSrc" href="data:image/png;base64,{b64}" '
-                     'x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}"/>'
-                     .format(b64=G._PORTRAIT_B64, x=draw_x, y=draw_y, w=draw_w, h=draw_h))
+```txt
+const vidhit = {
+  role: "Full-Stack Engineer & Co-Founder",
+  stack: ["MongoDB", "Express", "React", "Node.js", "Socket.io"],
+  currentlyBuilding: "VexaRent — AI-driven rental & logistics platform",
+  leads: ["Smart India Hackathon", "TEDx", "GDSC DevFest", "TBFF"],
+  offScreen: ["Kabaddi (Gold Medalist)", "Competitive Swimmer", "Classical Guitarist"],
+};
+```
 
-    body = []
-    body.append('<g id="portraitArt">')
-    body.append('<animateTransform attributeName="transform" type="translate" '
-                'values="0,0; 0,-7; 0,0" dur="6.5s" repeatCount="indefinite" '
-                'calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>')
-    body.append('<use href="#portraitSrc" filter="url(#{gid})" opacity="0.55" '
-                'clip-path="url(#portraitReveal)"/>'.format(gid=glow_id))
-    body.append('<use href="#portraitSrc" filter="url(#portraitDuoDark)" class="vdark" '
-                'clip-path="url(#portraitReveal)"/>')
-    body.append('<use href="#portraitSrc" filter="url(#portraitDuoLight)" class="vlight" '
-                'clip-path="url(#portraitReveal)"/>')
-    body.append('<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="3" fill="url(#scanGrad)" '
-                'opacity="0.8" clip-path="url(#portraitBounds)">'
-                '<animate attributeName="y" values="{y:.1f};{ybot:.1f}" dur="4s" begin="1.8s" repeatCount="indefinite"/>'
-                '</rect>'.format(x=draw_x, y=draw_y, w=draw_w, h=draw_h, ybot=draw_y + draw_h))
-    body.append('<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" fill="none" '
-                'stroke="url(#pillGrad)" stroke-width="1.2" opacity="0.7" rx="4"/>'
-                .format(x=draw_x, y=draw_y, w=draw_w, h=draw_h))
-    body.append('<rect x="{x:.1f}" y="{y2:.1f}" width="10" height="16" fill="var(--cursor)">'
-                '<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" '
-                'dur="1s" begin="1.6s" repeatCount="indefinite"/>'
-                '</rect>'.format(x=draw_x, y2=draw_y + draw_h + 6))
-    body.append('</g>')
+<br/>
 
-    return "\n".join(defs_out), "\n".join(body)
+## 🏆 Highlights
 
+<table width="100%">
+  <tr>
+    <td width="25%" align="center">
+      <img width="42" src="https://img.icons8.com/fluency/48/prize.png" alt="award"/>
+      <br/><b>Guinness World Record</b>
+      <br/><sub>Global AI Responsibility campaign participant</sub>
+    </td>
+    <td width="25%" align="center">
+      <img width="42" src="https://img.icons8.com/fluency/48/certificate.png" alt="cert"/>
+      <br/><b>ServiceNow Certified</b>
+      <br/><sub>ServiceNow University credential</sub>
+    </td>
+    <td width="25%" align="center">
+      <img width="42" src="https://img.icons8.com/fluency/48/rocket.png" alt="startup"/>
+      <br/><b>Co-Founder, VexaRent</b>
+      <br/><sub>MSME-registered rental platform</sub>
+    </td>
+    <td width="25%" align="center">
+      <img width="42" src="https://img.icons8.com/fluency/48/medal2.png" alt="medal"/>
+      <br/><b>Nodal Gold Medalist</b>
+      <br/><sub>Kabaddi, representing LNCT</sub>
+    </td>
+  </tr>
+</table>
 
-def build_svg_single():
-    vt = var_theme()
-    grad = vt["grad"]
-    snake_grad = vt["snake"]
-    defs = []
-    defs.append('<linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">'
-                '<stop offset="0%" stop-color="var(--grad0)"/>'
-                '<stop offset="100%" stop-color="var(--grad1)"/>'
-                '</linearGradient>')
-    defs.append('<linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">'
-                '<stop offset="0%" stop-color="{a}"/><stop offset="50%" stop-color="{b}"/>'
-                '<stop offset="100%" stop-color="{c}"/>'
-                '<animateTransform attributeName="gradientTransform" type="translate" '
-                'values="-1 0; 1 0; -1 0" dur="5s" repeatCount="indefinite"/>'
-                '</linearGradient>'.format(a=grad[0], b=grad[1], c=grad[2]))
-    defs.append('<linearGradient id="snakeBodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">'
-                '<stop offset="0%" stop-color="{a}"/><stop offset="100%" stop-color="{b}"/>'
-                '</linearGradient>'.format(a=snake_grad[0], b=snake_grad[1]))
-    defs.append('<linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">'
-                '<stop offset="0%" stop-color="{c}" stop-opacity="0"/>'
-                '<stop offset="50%" stop-color="{c}" stop-opacity="0.55"/>'
-                '<stop offset="100%" stop-color="{c}" stop-opacity="0"/>'
-                '</linearGradient>'.format(c=vt["glow2"]))
-    defs.append('<linearGradient id="borderShimmer" x1="0%" y1="0%" x2="100%" y2="0%">'
-                '<stop offset="0%" stop-color="{a}" stop-opacity="0"/>'
-                '<stop offset="50%" stop-color="{b}" stop-opacity="0.9"/>'
-                '<stop offset="100%" stop-color="{c}" stop-opacity="0"/>'
-                '<animate attributeName="x1" values="-20%;120%" dur="4.5s" repeatCount="indefinite"/>'
-                '<animate attributeName="x2" values="80%;220%" dur="4.5s" repeatCount="indefinite"/>'
-                '</linearGradient>'.format(a=grad[0], b=grad[1], c=grad[2]))
-    defs.append('<filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">'
-                '<feGaussianBlur stdDeviation="2.1" result="blur"/>'
-                '<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>'
-                '</filter>')
-    defs.append('<filter id="bigGlow" x="-80%" y="-80%" width="260%" height="260%">'
-                '<feGaussianBlur stdDeviation="6"/></filter>')
-    defs.append('<clipPath id="canvasClip"><rect x="0" y="0" width="{w}" height="{h}" rx="26"/></clipPath>'
-                .format(w=G.W, h=G.H))
-    defs.append('<filter id="noiseFilter"><feTurbulence type="fractalNoise" baseFrequency="0.85" '
-                'numOctaves="2" stitchTiles="stitch" result="noise"/>'
-                '<feColorMatrix in="noise" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.02 0"/>'
-                '</filter>')
-    ascii_defs, ascii_body = build_ascii_dual(vt)
-    defs.append(ascii_defs)
+<br/>
 
-    parts = []
-    parts.append('<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
-                  'xmlns="http://www.w3.org/2000/svg">'.format(w=G.W, h=G.H))
-    parts.append(css_block())
-    parts.append('<defs>{}</defs>'.format("\n".join(defs)))
-    parts.append('<g clip-path="url(#canvasClip)">')
-    parts.append(G.build_background(vt))
-    parts.append('<rect x="0" y="0" width="{w}" height="{h}" filter="url(#noiseFilter)"/>'.format(w=G.W, h=G.H))
+## 💎 Featured Projects
 
-    parts.append('<rect x="34" y="60" width="410" height="426" rx="18" fill="var(--panel)" fill-opacity="var(--panel-op)" '
-                  'stroke="var(--border)" stroke-width="1"/>')
-    parts.append(ascii_body)
-    parts.append(G.build_terminal(vt))
-    parts.append(G.build_snake(vt))
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <h3>🚕 RideFlow</h3>
+      <p><sub>Real-time cab booking, engineered for low-latency tracking at scale.</sub></p>
+      <img src="https://img.shields.io/badge/MERN-20232a?style=flat-square&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/Socket.io-black?style=flat-square&logo=socket.io&logoColor=white"/>
+      <br/><br/>
+      <a href="https://github.com/vanshvidhit/rideflow">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=vanshvidhit&repo=rideflow&theme=tokyonight&hide_border=true&background=0d1117" alt="RideFlow repo card"/>
+      </a>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🏠 HouseHunt</h3>
+      <p><sub>Transparent rental ecosystem with full transaction visibility.</sub></p>
+      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Express.js-black?style=flat-square&logo=express"/>
+      <br/><br/>
+      <a href="https://github.com/vanshvidhit/househunt">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=vanshvidhit&repo=househunt&theme=tokyonight&hide_border=true&background=0d1117" alt="HouseHunt repo card"/>
+      </a>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🏢 VexaRent Core</h3>
+      <p><sub>Logistics engine and commercial architecture for an active startup.</sub></p>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
+      <br/><br/>
+      <a href="https://github.com/vanshvidhit/vexarent-core">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=vanshvidhit&repo=vexarent-core&theme=tokyonight&hide_border=true&background=0d1117" alt="VexaRent Core repo card"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
-    parts.append('<rect x="1" y="1" width="{w2}" height="{h2}" rx="25" fill="none" '
-                  'stroke="var(--border)" stroke-width="1.4"/>'.format(w2=G.W - 2, h2=G.H - 2))
-    parts.append('<rect x="1" y="1" width="{w2}" height="{h2}" rx="25" fill="none" '
-                  'stroke="url(#borderShimmer)" stroke-width="1.6"/>'.format(w2=G.W - 2, h2=G.H - 2))
+<sub>💡 Pinned cards render once the repos above exist and are public — rename the `repo=` params to match your actual slugs.</sub>
 
-    parts.append('</g>')
-    parts.append('</svg>')
-    return "\n".join(parts)
+<br/>
 
+## 🎤 Event Leadership & Community
 
-if __name__ == "__main__":
-    svg = build_svg_single()
-    with open("/home/claude/svg/banner.svg", "w") as f:
-        f.write(svg)
-    print("banner.svg", len(svg))
+<table width="100%">
+  <tr><td>🎬</td><td><b>The Bhopal Film Festival (TBFF)</b> — Production, Promotion &amp; Marketing Coordinator for the inaugural edition at Minto Hall; ran backstage logistics, celebrity scheduling, and venue-flow planning.</td></tr>
+  <tr><td>🧑‍💻</td><td><b>Smart India Hackathon, TEDx, GDSC/DevFest</b> — Lead coordinator across marquee technical platforms and hack-spaces.</td></tr>
+  <tr><td>🎥</td><td><b>Media &amp; Production Ops</b> — Logistics and stakeholder management for professional web-series productions.</td></tr>
+  <tr><td>🏫</td><td><b>LNCT Group Representative</b> — Regional and national technology and leadership initiatives.</td></tr>
+</table>
+
+<br/>
+
+## 🛠 Tech Stack
+
+<details open>
+<summary><b>Languages</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=js,ts,py,c,cpp,java" alt="languages"/>
+</details>
+
+<details open>
+<summary><b>Frontend</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,html,css" alt="frontend"/>
+</details>
+
+<details open>
+<summary><b>Backend &amp; Realtime</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express" alt="backend"/>
+<img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&logoColor=white"/>
+</details>
+
+<details open>
+<summary><b>Databases</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,firebase" alt="databases"/>
+</details>
+
+<details open>
+<summary><b>DevOps, Tools &amp; Platforms</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,linux,windows,bash" alt="tools"/>
+<img src="https://img.shields.io/badge/ServiceNow-293E40?style=for-the-badge&logo=servicenow&logoColor=white"/>
+</details>
+
+<br/>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=vanshvidhit&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&background=0d1117" height="180" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" height="180" alt="GitHub Streak"/>
+</div>
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshvidhit&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&count_private=true&background=0d1117" height="200" alt="Top Languages"/>
+</div>
+
+<div align="center">
+
+[![Vidhit's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyo-night&hide_border=true&bg_color=0d1117)](https://github.com/vanshvidhit)
+
+</div>
+
+<br/>
+
+## 🏅 Trophy Case
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=vanshvidhit&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub Trophies"/>
+</div>
+
+<br/>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake eating my real commit history" src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" width="100%"/>
+</picture>
+<br/>
+<sub>Generated on a schedule via the Platane/snk GitHub Action — this one reflects real contribution data, unlike the decorative snake in the hero banner above.</sub>
+</div>
+
+<br/>
+
+## 🌐 Connect With Me
+
+<div align="center">
+<a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="https://github.com/vanshvidhit" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="https://twitter.com/YOUR_TWITTER" target="_blank">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
+</a>
+<a href="mailto:YOUR_EMAIL@example.com" target="_blank">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+</div>
+
+<br/>
+
+<div align="center">
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+<br/>
+
+[![](https://visitcount.itsvg.in/api?id=vanshvidhit&icon=1&color=3)](https://visitcount.itsvg.in)
+
+<sub>⭐ If any of this sparked an idea for your own profile, feel free to fork the layout.</sub>
+
+</div>
