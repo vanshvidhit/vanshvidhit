@@ -1,146 +1,209 @@
-<h1 align="center">🌟 Vidhit Vansh — Engineering the Future through Full-Stack & AI Innovation</h1>
+import gen as G
 
-<h2 align="center">
-  <b>Co-Founder @ VexaRent | Full-Stack MERN Developer | Lead Event Coordinator | Guinness World Record Campaign Achiever | Nodal Gold Medalist @ Kabaddi | Technical Event Extraordinaire | LNCT Student Leader</b>
-</h2>
+DARK = G.theme_dark()
+LIGHT = G.theme_light()
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
+VAR_MAP = {
+    "bg": "bg", "panel": "panel", "panel_op": "panel-op", "border": "border",
+    "text": "text", "muted": "muted",
+    "glow1": "glow1", "glow2": "glow2", "glow3": "glow3",
+    "cursor": "cursor", "food": "food", "food_stroke": "food-stroke",
+}
 
-<!-- 🚀 Dynamic Text Animation 🚀 -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=750&lines=Hi+there!+%F0%9F%91%8B+I'm+Vidhit+Vansh;Full+Stack+MERN+Developer;Co-Founder+at+VexaRent+🏆;Open+Source+%26+Event+Leader" alt="Typing Animation" />
-</p>
+def var_theme():
+    t = dict(name="single")
+    for k, css in VAR_MAP.items():
+        t[k] = "var(--{})".format(css)
+    t["grad"] = ["var(--grad0)", "var(--grad1)", "var(--grad2)"]
+    t["ascii_grad"] = ["var(--grad0)", "var(--grad1)"]  # not used for filter math here
+    t["snake"] = ["var(--snake0)", "var(--snake1)"]
+    return t
 
-<div align="center">
-  <a href="https://github.com/vanshvidhit" target="_blank">
-    <img src="https://img.shields.io/badge/Explore%20My%20Projects-Click%20Here-6f42c1?style=for-the-badge&logo=github&logoColor=white&labelColor=2c2c2c&color=00c853" alt="GitHub Badge" style="border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);">
-  </a>
-</div>
 
-# 👋 Hi, I'm **Vidhit Vansh**
+def css_block():
+    def rules(t, indent=""):
+        lines = [
+            "{i}--bg:{bg};".format(i=indent, bg=t["bg"]),
+            "{i}--panel:{panel};".format(i=indent, panel=t["panel"]),
+            "{i}--panel-op:{op};".format(i=indent, op=t["panel_op"]),
+            "{i}--border:{b};".format(i=indent, b=t["border"]),
+            "{i}--text:{c};".format(i=indent, c=t["text"]),
+            "{i}--muted:{c};".format(i=indent, c=t["muted"]),
+            "{i}--grad0:{c};".format(i=indent, c=t["grad"][0]),
+            "{i}--grad1:{c};".format(i=indent, c=t["grad"][1]),
+            "{i}--grad2:{c};".format(i=indent, c=t["grad"][2]),
+            "{i}--glow1:{c};".format(i=indent, c=t["glow1"]),
+            "{i}--glow2:{c};".format(i=indent, c=t["glow2"]),
+            "{i}--glow3:{c};".format(i=indent, c=t["glow3"]),
+            "{i}--cursor:{c};".format(i=indent, c=t["cursor"]),
+            "{i}--food:{c};".format(i=indent, c=t["food"]),
+            "{i}--food-stroke:{c};".format(i=indent, c=t["food_stroke"]),
+            "{i}--snake0:{c};".format(i=indent, c=t["snake"][0]),
+            "{i}--snake1:{c};".format(i=indent, c=t["snake"][1]),
+        ]
+        return "\n".join(lines)
 
-💻 Computer Science & Engineering Student | Startup Founder | Tech Enthusiast
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
+    css = []
+    css.append(":root {\n" + rules(DARK, "  ") + "\n}")
+    css.append("@media (prefers-color-scheme: light) {\n  :root {\n" + rules(LIGHT, "    ") + "\n  }\n}")
+    css.append(".vlight { display: none; }")
+    css.append("@media (prefers-color-scheme: light) {\n  .vdark { display: none; }\n  .vlight { display: inline; }\n}")
+    return "<style>\n" + "\n".join(css) + "\n</style>"
 
-## 🌌 Highlights — Startups, Scale & Top Achievements
 
-- 🚀 **Co-Founder of VexaRent** — driving an MSME-registered rental platform leveraging AI-driven models for logistics and service fee management.
-- 📜 **Guinness World Record Achiever** — recognized for participating in a massive, globally impactful AI Responsibility campaign.
-- 🔒 **ServiceNow Certified** — holding professional credentials from ServiceNow University to optimize enterprise workflows.
-- 💼 **Full-Stack Engineer** — architecting systems focusing on high availability, real-time sync, and security.
+def build_ascii_dual(vt):
+    c0d, c1d = G.hex_to_rgb(DARK["ascii_grad"][0]), G.hex_to_rgb(DARK["ascii_grad"][1])
+    c0l, c1l = G.hex_to_rgb(LIGHT["ascii_grad"][0]), G.hex_to_rgb(LIGHT["ascii_grad"][1])
+    n = lambda c: tuple(v / 255.0 for v in c)
+    c0dn, c1dn, c0ln, c1ln = n(c0d), n(c1d), n(c0l), n(c1l)
 
----
+    box_x, box_y = 60, 84
+    box_w, box_h = 364, 372
+    img_ar = G._PORTRAIT_W / G._PORTRAIT_H
+    box_ar = box_w / box_h
+    if img_ar > box_ar:
+        draw_w = box_w
+        draw_h = box_w / img_ar
+    else:
+        draw_h = box_h
+        draw_w = box_h * img_ar
+    draw_x = box_x + (box_w - draw_w) / 2
+    draw_y = box_y + (box_h - draw_h) / 2
 
-### Core Applications Ecosystem 
+    glow_id = "portraitGlow"
+    defs_out = []
 
-<table>
-  <tr>
-    <td align="center"><b>RideFlow (Real-time Cab Booking)</b><br>MERN stack application engineered with Socket.io for live updates, low-latency tracking, and high user throughput.</td>
-    <td align="center"><b>HouseHunt (Property Ecosystem)</b><br>A transparent rental ecosystem giving users complete transaction visibility and streamlined property search capabilities.</td>
-    <td align="center"><b>VexaRent Core Infrastructure</b><br>Building out scalable logistics engines, service layers, and commercial architecture for an active startup.</td>
-  </tr>
-</table>
+    def make_filter(fid, r0, r1, g0, g1, b0, b1):
+        return (
+            '<filter id="{fid}" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">'
+            '<feComponentTransfer>'
+            '<feFuncR type="table" tableValues="{r0:.4f} {r1:.4f}"/>'
+            '<feFuncG type="table" tableValues="{g0:.4f} {g1:.4f}"/>'
+            '<feFuncB type="table" tableValues="{b0:.4f} {b1:.4f}"/>'
+            '</feComponentTransfer>'
+            '<feColorMatrix type="hueRotate" values="0">'
+            '<animate attributeName="values" values="0;22;0;-22;0" dur="10s" repeatCount="indefinite"/>'
+            '</feColorMatrix>'
+            '</filter>'
+        ).format(fid=fid, r0=r0, r1=r1, g0=g0, g1=g1, b0=b0, b1=b1)
 
-# 🚀 Startups & Entrepreneurship
+    defs_out.append(make_filter("portraitDuoDark", c0dn[0], c1dn[0], c0dn[1], c1dn[1], c0dn[2], c1dn[2]))
+    defs_out.append(make_filter("portraitDuoLight", c0ln[0], c1ln[0], c0ln[1], c1ln[1], c0ln[2], c1ln[2]))
+    defs_out.append('<filter id="{gid}" x="-60%" y="-60%" width="220%" height="220%">'
+                     '<feGaussianBlur stdDeviation="9"/></filter>'.format(gid=glow_id))
 
-### 🏢 **VexaRent — Registered MSME Startup**
-<div align="left">
-💡 **Building Next-Gen Logistics & Rental Solutions:**  
+    defs_out.append('<clipPath id="portraitReveal"><rect x="{x:.1f}" y="{y2:.1f}" width="{w:.1f}" height="0">'
+                     '<animate attributeName="height" values="0;{h:.1f}" begin="0.3s" dur="1.3s" '
+                     'fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>'
+                     '<animate attributeName="y" values="{ybot:.1f};{y2:.1f}" begin="0.3s" dur="1.3s" '
+                     'fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>'
+                     '</rect></clipPath>'.format(x=draw_x - 6, y2=draw_y - 6, w=draw_w + 12, h=draw_h + 12,
+                                                  ybot=draw_y - 6 + draw_h + 12))
+    defs_out.append('<clipPath id="portraitBounds"><rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}"/></clipPath>'
+                     .format(x=draw_x, y=draw_y, w=draw_w, h=draw_h))
+    defs_out.append('<image id="portraitSrc" href="data:image/png;base64,{b64}" '
+                     'x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}"/>'
+                     .format(b64=G._PORTRAIT_B64, x=draw_x, y=draw_y, w=draw_w, h=draw_h))
 
-- Officially **co-founded and signed MOUs** to deploy intelligent service-fee architectures.
-- Managing data infrastructure, vendor allocations, and digital-first logistics pipelines.
-- Focused on injecting absolute market transparency into traditional rental systems.
-</div>
+    body = []
+    body.append('<g id="portraitArt">')
+    body.append('<animateTransform attributeName="transform" type="translate" '
+                'values="0,0; 0,-7; 0,0" dur="6.5s" repeatCount="indefinite" '
+                'calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>')
+    body.append('<use href="#portraitSrc" filter="url(#{gid})" opacity="0.55" '
+                'clip-path="url(#portraitReveal)"/>'.format(gid=glow_id))
+    body.append('<use href="#portraitSrc" filter="url(#portraitDuoDark)" class="vdark" '
+                'clip-path="url(#portraitReveal)"/>')
+    body.append('<use href="#portraitSrc" filter="url(#portraitDuoLight)" class="vlight" '
+                'clip-path="url(#portraitReveal)"/>')
+    body.append('<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="3" fill="url(#scanGrad)" '
+                'opacity="0.8" clip-path="url(#portraitBounds)">'
+                '<animate attributeName="y" values="{y:.1f};{ybot:.1f}" dur="4s" begin="1.8s" repeatCount="indefinite"/>'
+                '</rect>'.format(x=draw_x, y=draw_y, w=draw_w, h=draw_h, ybot=draw_y + draw_h))
+    body.append('<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" fill="none" '
+                'stroke="url(#pillGrad)" stroke-width="1.2" opacity="0.7" rx="4"/>'
+                .format(x=draw_x, y=draw_y, w=draw_w, h=draw_h))
+    body.append('<rect x="{x:.1f}" y="{y2:.1f}" width="10" height="16" fill="var(--cursor)">'
+                '<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" '
+                'dur="1s" begin="1.6s" repeatCount="indefinite"/>'
+                '</rect>'.format(x=draw_x, y2=draw_y + draw_h + 6))
+    body.append('</g>')
 
----
+    return "\n".join(defs_out), "\n".join(body)
 
-### 🏆 **Event Management & Institutional Leadership**
-<div align="left">
 
-✨ I regularly orchestrate, manage, and scale high-profile tech, commercial, and creative ecosystems:  
+def build_svg_single():
+    vt = var_theme()
+    grad = vt["grad"]
+    snake_grad = vt["snake"]
+    defs = []
+    defs.append('<linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">'
+                '<stop offset="0%" stop-color="var(--grad0)"/>'
+                '<stop offset="100%" stop-color="var(--grad1)"/>'
+                '</linearGradient>')
+    defs.append('<linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">'
+                '<stop offset="0%" stop-color="{a}"/><stop offset="50%" stop-color="{b}"/>'
+                '<stop offset="100%" stop-color="{c}"/>'
+                '<animateTransform attributeName="gradientTransform" type="translate" '
+                'values="-1 0; 1 0; -1 0" dur="5s" repeatCount="indefinite"/>'
+                '</linearGradient>'.format(a=grad[0], b=grad[1], c=grad[2]))
+    defs.append('<linearGradient id="snakeBodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">'
+                '<stop offset="0%" stop-color="{a}"/><stop offset="100%" stop-color="{b}"/>'
+                '</linearGradient>'.format(a=snake_grad[0], b=snake_grad[1]))
+    defs.append('<linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">'
+                '<stop offset="0%" stop-color="{c}" stop-opacity="0"/>'
+                '<stop offset="50%" stop-color="{c}" stop-opacity="0.55"/>'
+                '<stop offset="100%" stop-color="{c}" stop-opacity="0"/>'
+                '</linearGradient>'.format(c=vt["glow2"]))
+    defs.append('<linearGradient id="borderShimmer" x1="0%" y1="0%" x2="100%" y2="0%">'
+                '<stop offset="0%" stop-color="{a}" stop-opacity="0"/>'
+                '<stop offset="50%" stop-color="{b}" stop-opacity="0.9"/>'
+                '<stop offset="100%" stop-color="{c}" stop-opacity="0"/>'
+                '<animate attributeName="x1" values="-20%;120%" dur="4.5s" repeatCount="indefinite"/>'
+                '<animate attributeName="x2" values="80%;220%" dur="4.5s" repeatCount="indefinite"/>'
+                '</linearGradient>'.format(a=grad[0], b=grad[1], c=grad[2]))
+    defs.append('<filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">'
+                '<feGaussianBlur stdDeviation="2.1" result="blur"/>'
+                '<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>'
+                '</filter>')
+    defs.append('<filter id="bigGlow" x="-80%" y="-80%" width="260%" height="260%">'
+                '<feGaussianBlur stdDeviation="6"/></filter>')
+    defs.append('<clipPath id="canvasClip"><rect x="0" y="0" width="{w}" height="{h}" rx="26"/></clipPath>'
+                .format(w=G.W, h=G.H))
+    defs.append('<filter id="noiseFilter"><feTurbulence type="fractalNoise" baseFrequency="0.85" '
+                'numOctaves="2" stitchTiles="stitch" result="noise"/>'
+                '<feColorMatrix in="noise" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.02 0"/>'
+                '</filter>')
+    ascii_defs, ascii_body = build_ascii_dual(vt)
+    defs.append(ascii_defs)
 
-- **The Bhopal Film Festival (TBFF):** Served as *Production, Promotion & Marketing Co-ordinator*. Directly managed cross-functional volunteer teams and headed backstage logistics, celebrity scheduling, and tactical venue flow frameworks for the Inaugural Edition at Minto Hall.
-- **Lead Coordinator Roles:** Successfully managed marquee technical platforms including the **Smart India Hackathon (SIH)**, **TEDx events**, and **GDSC / DevFest hack-spaces**.
-- **Media & Production Operations:** Commanded logistics, stakeholder pipelines, and character performances for professional web series productions.
-- **Ecosystem Representative:** Representing **LNCT Group** across major regional and national-level technology and leadership initiatives.
-</div>
+    parts = []
+    parts.append('<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
+                  'xmlns="http://www.w3.org/2000/svg">'.format(w=G.W, h=G.H))
+    parts.append(css_block())
+    parts.append('<defs>{}</defs>'.format("\n".join(defs)))
+    parts.append('<g clip-path="url(#canvasClip)">')
+    parts.append(G.build_background(vt))
+    parts.append('<rect x="0" y="0" width="{w}" height="{h}" filter="url(#noiseFilter)"/>'.format(w=G.W, h=G.H))
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
+    parts.append('<rect x="34" y="60" width="410" height="426" rx="18" fill="var(--panel)" fill-opacity="var(--panel-op)" '
+                  'stroke="var(--border)" stroke-width="1"/>')
+    parts.append(ascii_body)
+    parts.append(G.build_terminal(vt))
+    parts.append(G.build_snake(vt))
 
-<!-- 🕹️ FIXED LIGHT/DARK ADAPTIVE SNAKE MATRIX ENGINE 🕹️ -->
-<h3 align="center">🐍 My Contribution Grid Journey</h3>
+    parts.append('<rect x="1" y="1" width="{w2}" height="{h2}" rx="25" fill="none" '
+                  'stroke="var(--border)" stroke-width="1.4"/>'.format(w2=G.W - 2, h2=G.H - 2))
+    parts.append('<rect x="1" y="1" width="{w2}" height="{h2}" rx="25" fill="none" '
+                  'stroke="url(#borderShimmer)" stroke-width="1.6"/>'.format(w2=G.W - 2, h2=G.H - 2))
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" width="100%" />
-  </picture>
-</p>
+    parts.append('</g>')
+    parts.append('</svg>')
+    return "\n".join(parts)
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
 
-# 🏅 Beyond The Code (Athletics & Art)
-
-- 🥇 **Nodal Gold Medalist** in Kabaddi — holding top honors at the nodal tournament level representing LNCT.
-- 🏊‍♂️ Active **competitive swimmer** focusing on discipline, endurance, and strategy.
-- 🎸 **Classical Guitarist** & Wilderness Trekker — exploring complex compositions and remote peaks off the screen.
-
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.svg" alt="Divider Line" width="1000">
-
-## 🌐 Connect With Me  
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="50" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/vanshvidhit" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" height="50" alt="GitHub" />
-  </a>
-  <a href="mailto:your-email@example.com" target="_blank">
-    <img src="https://skillicons.dev/icons?i=gmail" height="50" alt="Email" />
-  </a>
-</p>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
-
-## 💻 Tech Stack & Skills  
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,nodejs,express,mongodb,mysql,sqlite,firebase,py,c,cpp,java,git,github,vscode,postman,figma,linux,windows,bash" alt="My Tech Stack" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.io badge" />
-  <img src="https://img.shields.io/badge/ServiceNow-293E40?style=for-the-badge&logo=servicenow&logoColor=white" alt="ServiceNow badge" />
-  <img src="https://img.shields.io/badge/MERN_Stack-20232a?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="MERN Stack Badge" />
-</p>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vanshvidhit&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&background=0d1117" height="180" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" height="180" alt="GitHub Streak" />
-</p>
-
-## 📊 Language Breakdown & Profile Traction
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshvidhit&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&count_private=true&background=0d1117" height="200" alt="Top Languages" />
-  <img src="https://komarev.com/ghpvc/?username=vanshvidhit&color=blueviolet" height="35" alt="Profile Views Tracker" />
-</p>
-
-## 📈 Contribution Graph
-[![Vidhit’s github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117)](https://github.com/vanshvidhit)
-
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Divider Line" width="1000">
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
----
-[![](https://visitcount.itsvg.in/api?id=vanshvidhit&icon=1&color=3)](https://visitcount.itsvg.in)
+if __name__ == "__main__":
+    svg = build_svg_single()
+    with open("/home/claude/svg/banner.svg", "w") as f:
+        f.write(svg)
+    print("banner.svg", len(svg))
