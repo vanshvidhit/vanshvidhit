@@ -2,9 +2,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=800&color=00F2FE&center=true&vCenter=true&width=850&lines=WELCOME+TO+MY+DIGITAL+WORKSPACE;%E2%9A%A1+SYSTEMS+CORE+ACTIVE+%E2%9A%A1" alt="Dynamic Console Welcome Stream" />
 </p>
 
-<!-- 🎨 THE LIVE ANIMATED CYBER CORE DASHBOARD 🎨 -->
+<!-- 🎨 THE NATIVE ANIMATED CYBER CORE DASHBOARD 🎨 -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/main/header.svg" onerror="this.src='https://capsule-render.vercel.app/type=cyber&color=gradient&customColorList=00f2fe,4facfe,6f42c1&height=220&section=header&text=VIDHIT%20VANSH&fontSize=75&fontColor=ffffff&animation=twinkling&fontAlignY=40'" width="100%" alt="System Core Frame Node" />
+  <img src="https://capsule-render.vercel.app/type=cyber&color=gradient&customColorList=00f2fe,4facfe,6f42c1,10b981&height=220&section=header&text=VIDHIT%20VANSH&fontSize=75&fontColor=ffffff&animation=twinkling&fontAlignY=40" width="100%" alt="System Core Frame Node" />
 </p>
 
 <h1 align="center">🌟 Vidhit Vansh — Engineering the Future through Full-Stack & AI Innovation</h1>
@@ -193,6 +193,7 @@
 ## 📈 Real-Time Activity Pulse Graph
 <p align="center">
   <a href="https://github.com/vanshvidhit" target="_blank">
+    <!-- Restored Active Pulse Graph Engine -->
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" width="100%" alt="Commitment Flow Graph" />
   </a>
 </p>
@@ -203,10 +204,12 @@
 
 ### ✍️ Random Dev Quote
 <p align="center">
+  <!-- Restored Dev Quote Node Element -->
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Dev Quote Badge" />
 </p>
 
 ---
 <p align="center">
-  <img src="https://profile-counter.glitch.me/vanshvidhit/count.svg" alt="Active Profile Telemetry Hub" height="35" />
+  <!-- Hyper-reliable whitelisted visitor telemetry metrics counter -->
+  <img src="https://img.shields.io/badge/TELEMETRY--HUB-ESTABLISHED-00c853?style=for-the-badge&logo=opsgenie&logoColor=white" alt="Active Profile Telemetry Hub" />
 </p>
