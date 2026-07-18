@@ -181,8 +181,8 @@
 </p>
 
 ---
+---
 <p align="center">
-  <img src="https://profile-counter.glitch.me/vanshvidhit/count.svg" alt="Audited Visitor Traffic Node" />
-</p>
-  </a>
+  <!-- Hyper-reliable visitor telemetry badge node -->
+  <img src="https://profile-counter.glitch.me/vanshvidhit/count.svg" alt="Active Profile Telemetry Hub" height="35" />
 </p>
