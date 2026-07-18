@@ -1,11 +1,54 @@
+<!-- 🚀 DYNAMIC SYSTEMS CORE ACTIVE BANNER AREA 🚀 -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=800&color=00F2FE&center=true&vCenter=true&width=850&lines=WELCOME+TO+MY+DIGITAL+WORKSPACE;%E2%9A%A1+SYSTEMS+CORE+ACTIVE+%E2%9A%A1" alt="Dynamic Console Welcome Stream" />
 </p>
 
-<!-- 🎨 THE NATIVE ANIMATED CYBER CORE DASHBOARD 🎨 -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/type=cyber&color=gradient&customColorList=00f2fe,4facfe,6f42c1,10b981&height=220&section=header&text=VIDHIT%20VANSH&fontSize=75&fontColor=ffffff&animation=twinkling&fontAlignY=40" width="100%" alt="System Core Frame Node" />
-</p>
+<!-- 🕹️ THE VISUAL SYSTEM CORE FRAME MATRIX DASHBOARD 🕹 -->
+<table width="100%">
+  <tr>
+    <!-- Left Column: System Architecture Terminal Log Box -->
+    <td width="40%" valign="top" style="background-color: #030712; border: 2px solid #22D3EE; padding: 20px; border-radius: 12px; box-shadow: 0 0 20px rgba(34, 211, 238, 0.25);">
+      <p align="center" style="color: #22D3EE; font-family: monospace; font-weight: bold; margin-top: 0;">⚡■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■⚡</p>
+      <p style="color: #22D3EE; font-family: monospace; font-size: 13px; font-weight: bold; margin: 5px 0;">🤖 [SYSTEM ARCHITECTURE CORE INITIALIZED]</p>
+      <pre style="color: #7C3AED; font-family: monospace; font-size: 11px; font-weight: bold; line-height: 1.2; margin: 10px 0; background: transparent; border: none;">
+  __   __  _      _   _  _   
+  \ \ / / (_) __| | | |_| |__  
+   \ V /  | |/ _` | | __| '_ \ 
+    \_/   |_|\__,_| |_| |_| |_|
+      </pre>
+      <p style="color: #22D3EE; font-family: monospace; font-size: 12px; margin: 6px 0;">▶ VEXARENT MODULE = [ACTIVE COFOUNDER]</p>
+      <p style="color: #22D3EE; font-family: monospace; font-size: 12px; margin: 6px 0;">▶ CONCURRENCY TRACKING = [ENGAGED (RIDEFLOW)]</p>
+      <p style="color: #22D3EE; font-family: monospace; font-size: 12px; margin: 6px 0;">▶ ECOSYSTEM CONTROL = [TRANSPARENT (HOUSEHUNT)]</p>
+      <p style="color: #7C3AED; font-family: monospace; font-size: 12px; font-weight: bold; margin: 12px 0 4px 0;">🛡️ GLOBAL ATTAINMENTS RECORDED:</p>
+      <p style="color: #10B981; font-family: monospace; font-size: 12px; margin: 4px 0 4px 15px;">├─ [GUINNESS WORLD RECORD CAMPAIGN THREAD]</p>
+      <p style="color: #10B981; font-family: monospace; font-size: 12px; margin: 4px 0 4px 15px;">├─ [NODAL KABADDI GOLD MEDALIST TIER]</p>
+      <p style="color: #10B981; font-family: monospace; font-size: 12px; margin: 4px 0 4px 15px;">└─ [SERVICENOW UNIVERSITY CERTIFIED DATA]</p>
+      <p align="center" style="color: #22D3EE; font-family: monospace; font-weight: bold; margin-bottom: 0;">⚡■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■⚡</p>
+    </td>
+    <!-- Right Column: Interactive User Diagnostics Panel Box -->
+    <td width="60%" valign="top" style="background-color: #0F172A; border: 2px solid #7C3AED; padding: 20px; border-radius: 12px; box-shadow: 0 0 25px rgba(124, 58, 237, 0.35);">
+      <div style="margin-bottom: 12px;">
+        <span style="display: inline-block; width: 12px; height: 12px; background-color: #EF4444; border-radius: 50%; margin-right: 6px;"></span>
+        <span style="display: inline-block; width: 12px; height: 12px; background-color: #F59E0B; border-radius: 50%; margin-right: 6px;"></span>
+        <span style="display: inline-block; width: 12px; height: 12px; background-color: #10B981; border-radius: 50%; margin-right: 15px;"></span>
+        <span style="color: #94A3B8; font-family: monospace; font-size: 13px;">vanshvidhit @ mainframes</span>
+      </div>
+      <p style="color: #94A3B8; font-family: monospace; font-size: 14px; margin: 5px 0;">$ finger vanshvidhit</p>
+      <h2 style="color: #FFFFFF; font-family: sans-serif; margin: 5px 0 10px 0; font-size: 26px;">Hi, I'm Vidhit Vansh</h2>
+      <!-- Dynamic Active Role Terminal Stream Indicator -->
+      <p style="color: #22D3EE; font-family: monospace; font-size: 16px; font-weight: bold; margin: 5px 0;">&gt; Role: <span style="color: #F8FAFC;">Full-Stack MERN Architect / Startup Co-Founder</span></p>
+      <div style="color: #94A3B8; font-family: sans-serif; font-size: 14px; line-height: 1.6; margin: 15px 0;">
+        📍 <b style="color: #F8FAFC;">Location:</b> Bhopal, MP, India<br>
+        🎓 <b style="color: #F8FAFC;">Education:</b> B.Tech in CSE Core @ LNCT Group (2027)<br>
+        🚀 <b style="color: #F8FAFC;">Current Focus:</b> Low-Latency Dispatch Engine Integrations<br>
+        📧 <b style="color: #F8FAFC;">Email:</b> vidhitvanshofficial@gmail.com
+      </div>
+      <div style="margin-top: 15px; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 12px;">
+        <p style="color: #94A3B8; font-family: monospace; font-size: 12px; margin: 0;">// Continuous integration pipelines online</p>
+      </div>
+    </td>
+  </tr>
+</table>
 
 <h1 align="center">🌟 Vidhit Vansh — Engineering the Future through Full-Stack & AI Innovation</h1>
 
@@ -17,7 +60,7 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
 </p>
 
-<!-- 🚀 High-Performance Dynamic Typing Console Loop 🚀 -->
+<!-- 🚀 Restored Dynamic Typing Matrix Console Loop 🚀 -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2E9EF7&center=true&vCenter=true&width=850&lines=Hi+there!+I'm+Vidhit+Vansh;Full+Stack+MERN+Architect;Co-Founder+at+VexaRent;Open+Source+%26+Event+Leader" alt="Typing Matrix Stream" />
 </p>
@@ -193,7 +236,6 @@
 ## 📈 Real-Time Activity Pulse Graph
 <p align="center">
   <a href="https://github.com/vanshvidhit" target="_blank">
-    <!-- Restored Active Pulse Graph Engine -->
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" width="100%" alt="Commitment Flow Graph" />
   </a>
 </p>
@@ -204,12 +246,11 @@
 
 ### ✍️ Random Dev Quote
 <p align="center">
-  <!-- Restored Dev Quote Node Element -->
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Dev Quote Badge" />
 </p>
 
 ---
 <p align="center">
-  <!-- Hyper-reliable whitelisted visitor telemetry metrics counter -->
+  <!-- Whitelisted High-Performance Telemetry Hub Badge Vector -->
   <img src="https://img.shields.io/badge/TELEMETRY--HUB-ESTABLISHED-00c853?style=for-the-badge&logo=opsgenie&logoColor=white" alt="Active Profile Telemetry Hub" />
 </p>
