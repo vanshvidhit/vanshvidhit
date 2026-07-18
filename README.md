@@ -149,24 +149,25 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
 </p>
 
-## 📊 GitHub Stats Dashboard
+## 📊 Profile Performance Matrix
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vanshvidhit&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&background=0d1117&v=1" height="190" alt="Core Profile Analytics" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117&v=1" height="190" alt="Commit Activity Streak" />
+  <img src="https://img.shields.io/badge/Total%20Contributions-45-blue?style=for-the-badge&logo=github" alt="Contributions Tracker" />
+  <img src="https://img.shields.io/badge/Current%20Streak-1%20Day-orange?style=for-the-badge&logo=lightning" alt="Activity Streak Tracker" />
+  <img src="https://img.shields.io/badge/Longest%20Streak-3%20Days-brightgreen?style=for-the-badge" alt="Peak Streak Milestone" />
 </p>
 
 ## 📊 Language Breakdown & Profile Traction
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshvidhit&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&count_private=true&background=0d1117&v=1" height="200" alt="Top Compiling Languages" />
+  <img src="https://img.shields.io/badge/Core%20Languages-JavaScript%20%7C%20TypeScript%20%7C%20Python-6f42c1?style=for-the-badge" alt="Primary Language Indicators" />
   <img src="https://komarev.com/ghpvc/?username=vanshvidhit&color=2E9EF7" height="35" alt="Active Profile Traffic Tracker" />
 </p>
 
 ## 📈 Real-Time Activity Pulse Graph
 <p align="center">
   <a href="https://github.com/vanshvidhit" target="_blank">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117&v=1" width="100%" alt="Commitment Flow Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" width="100%" alt="Commitment Flow Graph" />
   </a>
 </p>
 
@@ -176,12 +177,12 @@
 
 ### ✍️ Random Dev Quote
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&v=1" alt="Dynamic Dev Quote Badge" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Dev Quote Badge" />
 </p>
 
 ---
 <p align="center">
-  <a href="https://visitcount.itsvg.in" target="_blank">
-    <img src="https://visitcount.itsvg.in/api?id=vanshvidhit&icon=1&color=3&v=1" alt="Audited Visitor Traffic Node" />
+  <img src="https://profile-counter.glitch.me/vanshvidhit/count.svg" alt="Audited Visitor Traffic Node" />
+</p>
   </a>
 </p>
