@@ -8,10 +8,14 @@
   <tr>
     <!-- Left Module: Neon Core Terminal Engine -->
     <td width="48%" valign="top" style="background: linear-gradient(135deg, #0f172a 0%, #020617 100%); border: 2px solid #00f2fe; box-shadow: 0 0 25px rgba(0, 242, 254, 0.2); border-radius: 16px; padding: 24px; font-family: 'Fira Code', monospace;">
-      <div align="center" style="margin-bottom: 15px;">
+      <div align="center" style="margin-bottom: 20px;">
         <img src="https://img.shields.io/badge/CORE%20ENGINE-ACTIVE-00f2fe?style=for-the-badge&logo=cpu" alt="Core Engine Badge" />
       </div>
-      <p style="color: #00f2fe; font-size: 14px; font-weight: bold; margin: 0 0 10px 0; letter-spacing: 1px;">⚡ [SYS_CORE_INITIALIZED]</p>
+      
+      <!-- Upgraded: Cyber-Neon Terminal Log Node -->
+      <div style="background-color: #030712; border: 1px solid rgba(0, 242, 254, 0.3); padding: 10px 14px; border-radius: 8px; margin-bottom: 20px; text-align: center; box-shadow: inset 0 0 10px rgba(0, 242, 254, 0.1);">
+        <span style="color: #00f2fe; font-size: 13px; font-weight: bold; letter-spacing: 2px; text-shadow: 0 0 8px rgba(0, 242, 254, 0.6); font-family: 'Fira Code', monospace;">⚡ [SYS_CORE_INITIALIZED] ⚡</span>
+      </div>
       
       <div style="background-color: #030712; border-left: 4px solid #7c3aed; padding: 12px; border-radius: 6px; margin-bottom: 15px;">
         <code style="color: #a78bfa; font-size: 12px;"><b>▶ VEXARENT MODULE</b></code><br>
