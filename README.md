@@ -41,6 +41,31 @@
 
 ---
 
+### 🕹️ REAL-TIME SYSTEM ENGINE & QUEST LOG (Core Metrics)
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top" style="background-color: #0d1117; border: 1px solid #30363d; padding: 15px; border-radius: 8px;">
+      <h4>⚡ Active Operation Subsystems</h4>
+      <code>🛠️ MERN Architecture</code> <br>
+      <code>████████████████░░ 88%</code> <br><br>
+      <code>🚀 VexaRent Core Infra</code> <br>
+      <code>████████████░░░░░░ 75%</code> <br><br>
+      <code>🔒 Systems Security & IoT</code> <br>
+      <code>██████████░░░░░░░░ 62%</code>
+    </td>
+    <td width="50%" valign="top" style="background-color: #0d1117; border: 1px solid #30363d; padding: 15px; border-radius: 8px;">
+      <h4>📜 Active Campaign Quest Logs</h4>
+      <ul>
+        <li>🎯 <b>Main Quest:</b> Scaling production logistics structures for VexaRent commercial modules.</li>
+        <li>⚔️ <b>Side Quest:</b> Optimizing real-time dual-channel web frameworks via low-latency Socket.io pipelines.</li>
+        <li>🏆 <b>Achievement Unlocked:</b> Guinness World Record AI Responsibility Campaign Milestone.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
 ### Core Applications Ecosystem 
 
 <table width="100%">
