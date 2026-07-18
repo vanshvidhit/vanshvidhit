@@ -1,21 +1,21 @@
-<h1 align="center">🌟 Vidhit Vansh — Engineering the Future through Full-Stack & AI Innovation</h1>
+<div align="center">
+  <!-- Dynamic Glowing Waving Cyber Header -->
+  <img src="https://capsule-render.vercel.app/type=cyber&color=gradient&customColorList=00f2fe,4facfe,6f42c1,00c853&height=200&section=header&text=VIDHIT%20VANSH&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=40" width="100%" alt="Cyber Horizon Banner" />
+</div>
+
+<h1 align="center">🌟 Engineering the Future through Full-Stack & AI Innovation</h1>
 
 <h2 align="center">
   <b>Co-Founder @ VexaRent | Full-Stack MERN Developer | Lead Event Coordinator | Guinness World Record Campaign Achiever | Nodal Gold Medalist @ Kabaddi | Technical Event Extraordinaire | LNCT Student Leader</b>
 </h2>
 
-<div align="center">
-  <!-- Restored Dynamic Waving Banner Header -->
-  <img src="https://capsule-render.vercel.app/type=waving&color=gradient&customColorList=00f2fe,4facfe&height=180&section=header&text=VIDHIT%20VANSH&fontSize=65&fontColor=ffffff&animation=twinkling&fontAlignY=45" width="100%" alt="Cyber Horizon Banner" />
-</div>
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
 </p>
 
-<!-- 🚀 Restored Dynamic Typing Matrix Console Loop 🚀 -->
+<!-- 🚀 Restored High-Performance Dynamic Typing Console Loop 🚀 -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=850&lines=Hi+there!+%F0%9F%91%8B+I'm+Vidhit+Vansh;Full+Stack+MERN+Architect;Co-Founder+at+VexaRent+🏆;Open+Source+%26+Event+Leader" alt="Typing Matrix Stream" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=800&color=00F2FE&center=true&vCenter=true&width=850&lines=Hi+there!+%F0%9F%91%8B+I'm+Vidhit+Vansh;Full+Stack+MERN+Architect;Co-Founder+at+VexaRent+🏆;Open+Source+%26+Event+Leader" alt="Typing Matrix Stream" />
 </p>
 
 <div align="center">
@@ -206,6 +206,6 @@
 
 ---
 <p align="center">
-  <!-- Restored High-Performance Visitor Counter Node -->
+  <!-- Hyper-reliable visitor telemetry badge node -->
   <img src="https://profile-counter.glitch.me/vanshvidhit/count.svg" alt="Active Profile Telemetry Hub" height="35" />
 </p>
