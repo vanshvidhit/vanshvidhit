@@ -110,19 +110,19 @@
 - 🎸 **Classical Guitarist** & Wilderness Trekker — exploring complex compositions and remote peaks off the screen.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.svg" alt="Static Divider Line" width="100%">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
 </p>
 
 ## 🌐 Connect With Me  
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/" target="_blank">
+  <a href="https://www.linkedin.com/in/vidhit-vansh-9398a5295" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" height="50" alt="LinkedIn Node" />
   </a>
   <a href="https://github.com/vanshvidhit" target="_blank">
     <img src="https://skillicons.dev/icons?i=github" height="50" alt="GitHub Node" />
   </a>
-  <a href="mailto:your-email@example.com" target="_blank">
+  <a href="mailto:vidhitvanshofficial@gmail.com" target="_blank">
     <img src="https://skillicons.dev/icons?i=gmail" height="50" alt="Email Node" />
   </a>
 </p>
@@ -156,7 +156,7 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" height="190" alt="Commit Activity Streak" />
 </p>
 
-## 📊 Language Velocity & Profile Traction
+## 📊 Language Breakdown & Profile Traction
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshvidhit&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&count_private=true&background=0d1117" height="200" alt="Top Compiling Languages" />
