@@ -1,244 +1,187 @@
-<!--
-  ============================================================================
-  SETUP CHECKLIST — read this before you push
-  ============================================================================
-  1. Commit banner.svg (the hero banner) to this repo at:
-       assets/banner.svg
-     It's a single file that auto-switches colors via CSS
-     prefers-color-scheme — no separate dark/light versions needed.
+<h1 align="center">🌟 Vidhit Vansh — Engineering the Future through Full-Stack & AI Innovation</h1>
 
-  2. Replace every YOUR_LINKEDIN / YOUR_EMAIL / YOUR_TWITTER placeholder
-     with your real handles.
-
-  3. Replace repo-name placeholders in "Featured Projects" (rideflow,
-     househunt, vexarent-core) with your actual repo slugs so the links
-     and pinned-card widgets resolve.
-
-  4. The real contribution-snake near the bottom needs the Platane/snk
-     GitHub Action running on a schedule, writing to an "output" branch.
-     If you already have that workflow (your old README referenced it),
-     leave it as is — it will keep working here unchanged.
-
-  5. Swap username "vanshvidhit" anywhere it appears if that ever changes.
-  ============================================================================
--->
+<h2 align="center">
+  <b>Co-Founder @ VexaRent | Full-Stack MERN Developer | Lead Event Coordinator | Guinness World Record Campaign Achiever | Nodal Gold Medalist @ Kabaddi | Technical Event Extraordinaire | LNCT Student Leader</b>
+</h2>
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/main/assets/banner.svg" alt="Vidhit Vansh — hero banner" width="100%" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/MSME_Registered-VexaRent-6f42c1?style=for-the-badge&labelColor=0d1117" alt="MSME badge"/>
-<img src="https://img.shields.io/badge/ServiceNow-Certified-293E40?style=for-the-badge&logo=servicenow&logoColor=white&labelColor=0d1117" alt="ServiceNow badge"/>
-<img src="https://img.shields.io/badge/Guinness_World_Record-Campaign_Achiever-00c853?style=for-the-badge&labelColor=0d1117" alt="GWR badge"/>
-<img src="https://komarev.com/ghpvc/?username=vanshvidhit&style=for-the-badge&color=2E9EF7&label=PROFILE+VIEWS" alt="profile views"/>
-
+  <!-- Dynamic Cyber Wave Banner (GitHub Native & Responsive) -->
+  <img src="https://capsule-render.vercel.app/type=waving&color=gradient&customColorList=00f2fe,4facfe&height=180&section=header&text=VIDHIT%20VANSH&fontSize=65&fontColor=ffffff&animation=twinkling&fontAlignY=45" width="100%" alt="Cyber Horizon Banner" />
 </div>
 
-<br/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
+</p>
 
-## 👋 About Me
+<!-- 🚀 Dynamic Text Matrix Console Loop 🚀 -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=850&lines=Hi+there!+%F0%9F%91%8B+I'm+Vidhit+Vansh;Full+Stack+MERN+Architect;Co-Founder+at+VexaRent+🏆;Open+Source+%26+Event+Leader" alt="Typing Matrix Stream" />
+</p>
 
-I'm **Vidhit Vansh** — a full-stack engineer and startup co-founder who ships real products, not just side projects. I build MERN applications with real-time infrastructure, co-run an MSME-registered rental startup, and lead the teams behind large-scale tech and cultural events across my campus and city.
+<div align="center">
+  <a href="https://github.com/vanshvidhit" target="_blank">
+    <img src="https://img.shields.io/badge/Explore%20Active%20Systems-Click%20Here-6f42c1?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a1a&color=00c853" alt="GitHub Badge" style="border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);">
+  </a>
+</div>
 
-```txt
-const vidhit = {
-  role: "Full-Stack Engineer & Co-Founder",
-  stack: ["MongoDB", "Express", "React", "Node.js", "Socket.io"],
-  currentlyBuilding: "VexaRent — AI-driven rental & logistics platform",
-  leads: ["Smart India Hackathon", "TEDx", "GDSC DevFest", "TBFF"],
-  offScreen: ["Kabaddi (Gold Medalist)", "Competitive Swimmer", "Classical Guitarist"],
-};
-```
+# 👋 Hi, I'm **Vidhit Vansh**
 
-<br/>
+💻 Computer Science & Engineering Student | Startup Founder | Tech Enthusiast
 
-## 🏆 Highlights
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
+</p>
+
+## 🌌 Highlights — Startups, Scale & Top Achievements
+
+- 🚀 **Co-Founder of VexaRent** — driving an MSME-registered rental platform leveraging AI-driven models for logistics and service fee management.
+- 📜 **Guinness World Record Achiever** — recognized for participating in a massive, globally impactful AI Responsibility campaign.
+- 🔒 **ServiceNow Certified** — holding professional credentials from ServiceNow University to optimize enterprise workflows.
+- 💼 **Full-Stack Engineer** — architecting systems focusing on high availability, real-time sync, and security.
+
+---
+
+### Core Applications Ecosystem 
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center">
-      <img width="42" src="https://img.icons8.com/fluency/48/prize.png" alt="award"/>
-      <br/><b>Guinness World Record</b>
-      <br/><sub>Global AI Responsibility campaign participant</sub>
+    <td width="33%" align="center" style="background-color: #0d1117; border: 1px solid #30363d; padding: 15px; border-radius: 8px;">
+      <b>⚡ RideFlow (Real-time Cab Booking)</b><br>
+      <sub style="color: #8b949e;">MERN stack application engineered with Socket.io for live updates, low-latency tracking, and high user throughput.</sub>
     </td>
-    <td width="25%" align="center">
-      <img width="42" src="https://img.icons8.com/fluency/48/certificate.png" alt="cert"/>
-      <br/><b>ServiceNow Certified</b>
-      <br/><sub>ServiceNow University credential</sub>
+    <td width="33%" align="center" style="background-color: #0d1117; border: 1px solid #30363d; padding: 15px; border-radius: 8px;">
+      <b>🏡 HouseHunt (Property Ecosystem)</b><br>
+      <sub style="color: #8b949e;">A transparent rental ecosystem giving users complete transaction visibility and streamlined property search capabilities.</sub>
     </td>
-    <td width="25%" align="center">
-      <img width="42" src="https://img.icons8.com/fluency/48/rocket.png" alt="startup"/>
-      <br/><b>Co-Founder, VexaRent</b>
-      <br/><sub>MSME-registered rental platform</sub>
-    </td>
-    <td width="25%" align="center">
-      <img width="42" src="https://img.icons8.com/fluency/48/medal2.png" alt="medal"/>
-      <br/><b>Nodal Gold Medalist</b>
-      <br/><sub>Kabaddi, representing LNCT</sub>
+    <td width="33%" align="center" style="background-color: #0d1117; border: 1px solid #30363d; padding: 15px; border-radius: 8px;">
+      <b>📦 VexaRent Core Infrastructure</b><br>
+      <sub style="color: #8b949e;">Building out scalable logistics engines, service layers, and commercial architecture for an active startup.</sub>
     </td>
   </tr>
 </table>
 
-<br/>
+# 🚀 Startups & Entrepreneurship
 
-## 💎 Featured Projects
+### 🏢 **VexaRent — Registered MSME Startup**
+<div align="left">
+💡 **Building Next-Gen Logistics & Rental Solutions:**  
 
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <h3>🚕 RideFlow</h3>
-      <p><sub>Real-time cab booking, engineered for low-latency tracking at scale.</sub></p>
-      <img src="https://img.shields.io/badge/MERN-20232a?style=flat-square&logo=react&logoColor=61DAFB"/>
-      <img src="https://img.shields.io/badge/Socket.io-black?style=flat-square&logo=socket.io&logoColor=white"/>
-      <br/><br/>
-      <a href="https://github.com/vanshvidhit/rideflow">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=vanshvidhit&repo=rideflow&theme=tokyonight&hide_border=true&background=0d1117" alt="RideFlow repo card"/>
-      </a>
-    </td>
-    <td width="33%" valign="top">
-      <h3>🏠 HouseHunt</h3>
-      <p><sub>Transparent rental ecosystem with full transaction visibility.</sub></p>
-      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Express.js-black?style=flat-square&logo=express"/>
-      <br/><br/>
-      <a href="https://github.com/vanshvidhit/househunt">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=vanshvidhit&repo=househunt&theme=tokyonight&hide_border=true&background=0d1117" alt="HouseHunt repo card"/>
-      </a>
-    </td>
-    <td width="33%" valign="top">
-      <h3>🏢 VexaRent Core</h3>
-      <p><sub>Logistics engine and commercial architecture for an active startup.</sub></p>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
-      <br/><br/>
-      <a href="https://github.com/vanshvidhit/vexarent-core">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=vanshvidhit&repo=vexarent-core&theme=tokyonight&hide_border=true&background=0d1117" alt="VexaRent Core repo card"/>
-      </a>
-    </td>
-  </tr>
-</table>
-
-<sub>💡 Pinned cards render once the repos above exist and are public — rename the `repo=` params to match your actual slugs.</sub>
-
-<br/>
-
-## 🎤 Event Leadership & Community
-
-<table width="100%">
-  <tr><td>🎬</td><td><b>The Bhopal Film Festival (TBFF)</b> — Production, Promotion &amp; Marketing Coordinator for the inaugural edition at Minto Hall; ran backstage logistics, celebrity scheduling, and venue-flow planning.</td></tr>
-  <tr><td>🧑‍💻</td><td><b>Smart India Hackathon, TEDx, GDSC/DevFest</b> — Lead coordinator across marquee technical platforms and hack-spaces.</td></tr>
-  <tr><td>🎥</td><td><b>Media &amp; Production Ops</b> — Logistics and stakeholder management for professional web-series productions.</td></tr>
-  <tr><td>🏫</td><td><b>LNCT Group Representative</b> — Regional and national technology and leadership initiatives.</td></tr>
-</table>
-
-<br/>
-
-## 🛠 Tech Stack
-
-<details open>
-<summary><b>Languages</b></summary>
-<br/>
-<img src="https://skillicons.dev/icons?i=js,ts,py,c,cpp,java" alt="languages"/>
-</details>
-
-<details open>
-<summary><b>Frontend</b></summary>
-<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,html,css" alt="frontend"/>
-</details>
-
-<details open>
-<summary><b>Backend &amp; Realtime</b></summary>
-<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express" alt="backend"/>
-<img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&logoColor=white"/>
-</details>
-
-<details open>
-<summary><b>Databases</b></summary>
-<br/>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,firebase" alt="databases"/>
-</details>
-
-<details open>
-<summary><b>DevOps, Tools &amp; Platforms</b></summary>
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,linux,windows,bash" alt="tools"/>
-<img src="https://img.shields.io/badge/ServiceNow-293E40?style=for-the-badge&logo=servicenow&logoColor=white"/>
-</details>
-
-<br/>
-
-## 📊 GitHub Analytics
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=vanshvidhit&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&background=0d1117" height="180" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" height="180" alt="GitHub Streak"/>
+- Officially **co-founded and signed MOUs** to deploy intelligent service-fee architectures.
+- Managing data infrastructure, vendor allocations, and digital-first logistics pipelines.
+- Focused on injecting absolute market transparency into traditional rental systems.
 </div>
 
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshvidhit&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&count_private=true&background=0d1117" height="200" alt="Top Languages"/>
+---
+
+### 🏆 **Event Management & Institutional Leadership**
+<div align="left">
+
+✨ I regularly orchestrate, manage, and scale high-profile tech, commercial, and creative ecosystems:  
+
+- **The Bhopal Film Festival (TBFF):** Served as *Production, Promotion & Marketing Co-ordinator*. Directly managed cross-functional volunteer teams and headed backstage logistics, celebrity scheduling, and tactical venue flow frameworks for the Inaugural Edition at Minto Hall.
+- **Lead Coordinator Roles:** Successfully managed marquee technical platforms including the **Smart India Hackathon (SIH)**, **TEDx events**, and **GDSC / DevFest hack-spaces**.
+- **Media & Production Operations:** Commanded logistics, stakeholder pipelines, and character performances for professional web series productions.
+- **Ecosystem Representative:** Representing **LNCT Group** across major regional and national-level technology and leadership initiatives.
 </div>
 
-<div align="center">
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
+</p>
 
-[![Vidhit's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyo-night&hide_border=true&bg_color=0d1117)](https://github.com/vanshvidhit)
+<!-- 🕹️ 100% WORKING LIVE SNAKE CONTRIBUTION GAME 🕹️ -->
+<h3 align="center">🐍 My Contribution Grid Journey</h3>
 
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+</p>
 
-<br/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
+</p>
 
-## 🏅 Trophy Case
+# 🏅 Beyond The Code (Athletics & Art)
 
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=vanshvidhit&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub Trophies"/>
-</div>
+- 🥇 **Nodal Gold Medalist** in Kabaddi — holding top honors at the nodal tournament level representing LNCT.
+- 🏊‍♂️ Active **competitive swimmer** focusing on discipline, endurance, and strategy.
+- 🎸 **Classical Guitarist** & Wilderness Trekker — exploring complex compositions and remote peaks off the screen.
 
-<br/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.svg" alt="Static Divider Line" width="100%">
+</p>
 
-## 🐍 Contribution Snake
+## 🌐 Connect With Me  
 
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution snake eating my real commit history" src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" width="100%"/>
-</picture>
-<br/>
-<sub>Generated on a schedule via the Platane/snk GitHub Action — this one reflects real contribution data, unlike the decorative snake in the hero banner above.</sub>
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="50" alt="LinkedIn Node" />
+  </a>
+  <a href="https://github.com/vanshvidhit" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github" height="50" alt="GitHub Node" />
+  </a>
+  <a href="mailto:your-email@example.com" target="_blank">
+    <img src="https://skillicons.dev/icons?i=gmail" height="50" alt="Email Node" />
+  </a>
+</p>
 
-<br/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
+</p>
 
-## 🌐 Connect With Me
+## 💻 Tech Stack & Skills  
 
-<div align="center">
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="https://github.com/vanshvidhit" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-<a href="https://twitter.com/YOUR_TWITTER" target="_blank">
-  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
-</a>
-<a href="mailto:YOUR_EMAIL@example.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,nodejs,express,mongodb,mysql,sqlite,firebase,py,c,cpp,java,git,github,vscode,postman,figma,linux,windows,bash" alt="My Tech Stack Matrix" />
+</p>
 
-<br/>
+---
 
-<div align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.io Integration Badge" />
+  <img src="https://img.shields.io/badge/ServiceNow-293E40?style=for-the-badge&logo=servicenow&logoColor=white" alt="ServiceNow Badge" />
+  <img src="https://img.shields.io/badge/MERN_Stack-20232a?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="MERN Framework Badge" />
+</p>
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
+</p>
 
-<br/>
+## 📊 GitHub Stats Dashboard
 
-[![](https://visitcount.itsvg.in/api?id=vanshvidhit&icon=1&color=3)](https://visitcount.itsvg.in)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=vanshvidhit&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&background=0d1117" height="190" alt="Core Profile Analytics" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" height="190" alt="Commit Activity Streak" />
+</p>
 
-<sub>⭐ If any of this sparked an idea for your own profile, feel free to fork the layout.</sub>
+## 📊 Language Velocity & Profile Traction
 
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshvidhit&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&count_private=true&background=0d1117" height="200" alt="Top Compiling Languages" />
+  <img src="https://komarev.com/ghpvc/?username=vanshvidhit&color=2E9EF7" height="35" alt="Active Profile Traffic Tracker" />
+</p>
+
+## 📈 Real-Time Activity Pulse Graph
+<p align="center">
+  <a href="https://github.com/vanshvidhit" target="_blank">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" width="100%" alt="Commitment Flow Graph" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
+</p>
+
+### ✍️ Random Dev Quote
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Dev Quote Badge" />
+</p>
+
+---
+<p align="center">
+  <a href="https://visitcount.itsvg.in" target="_blank">
+    <img src="https://visitcount.itsvg.in/api?id=vanshvidhit&icon=1&color=3" alt="Audited Visitor Traffic Node" />
+  </a>
+</p>
