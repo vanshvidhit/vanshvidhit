@@ -3,48 +3,67 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=800&color=00F2FE&center=true&vCenter=true&width=850&lines=WELCOME+TO+MY+DIGITAL+WORKSPACE;%E2%9A%A1+SYSTEMS+CORE+ACTIVE+%E2%9A%A1" alt="Dynamic Console Welcome Stream" />
 </p>
 
-<!-- 🕹️ THE VISUAL SYSTEM CORE FRAME MATRIX DASHBOARD 🕹 -->
-<table width="100%">
+<!-- 🕹️ HYPER-GLOW CYBERCORE ENGINE MATRIX 🕹️ -->
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;">
   <tr>
-    <!-- Left Column: System Architecture Terminal Log Box -->
-    <td width="40%" valign="top" style="background-color: #030712; border: 2px solid #22D3EE; padding: 20px; border-radius: 12px; box-shadow: 0 0 20px rgba(34, 211, 238, 0.25);">
-      <p align="center" style="color: #22D3EE; font-family: monospace; font-weight: bold; margin-top: 0;">⚡■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■⚡</p>
-      <p style="color: #22D3EE; font-family: monospace; font-size: 13px; font-weight: bold; margin: 5px 0;">🤖 [SYSTEM ARCHITECTURE CORE INITIALIZED]</p>
-      <pre style="color: #7C3AED; font-family: monospace; font-size: 11px; font-weight: bold; line-height: 1.2; margin: 10px 0; background: transparent; border: none;">
-  __   __  _      _   _  _   
-  \ \ / / (_) __| | | |_| |__  
-   \ V /  | |/ _` | | __| '_ \ 
-    \_/   |_|\__,_| |_| |_| |_|
-      </pre>
-      <p style="color: #22D3EE; font-family: monospace; font-size: 12px; margin: 6px 0;">▶ VEXARENT MODULE = [ACTIVE COFOUNDER]</p>
-      <p style="color: #22D3EE; font-family: monospace; font-size: 12px; margin: 6px 0;">▶ CONCURRENCY TRACKING = [ENGAGED (RIDEFLOW)]</p>
-      <p style="color: #22D3EE; font-family: monospace; font-size: 12px; margin: 6px 0;">▶ ECOSYSTEM CONTROL = [TRANSPARENT (HOUSEHUNT)]</p>
-      <p style="color: #7C3AED; font-family: monospace; font-size: 12px; font-weight: bold; margin: 12px 0 4px 0;">🛡️ GLOBAL ATTAINMENTS RECORDED:</p>
-      <p style="color: #10B981; font-family: monospace; font-size: 12px; margin: 4px 0 4px 15px;">├─ [GUINNESS WORLD RECORD CAMPAIGN THREAD]</p>
-      <p style="color: #10B981; font-family: monospace; font-size: 12px; margin: 4px 0 4px 15px;">├─ [NODAL KABADDI GOLD MEDALIST TIER]</p>
-      <p style="color: #10B981; font-family: monospace; font-size: 12px; margin: 4px 0 4px 15px;">└─ [SERVICENOW UNIVERSITY CERTIFIED DATA]</p>
-      <p align="center" style="color: #22D3EE; font-family: monospace; font-weight: bold; margin-bottom: 0;">⚡■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■⚡</p>
+    <!-- Left Module: Neon Core Terminal Engine -->
+    <td width="48%" valign="top" style="background: linear-gradient(135deg, #0f172a 0%, #020617 100%); border: 2px solid #00f2fe; box-shadow: 0 0 25px rgba(0, 242, 254, 0.2); border-radius: 16px; padding: 24px; font-family: 'Fira Code', monospace;">
+      <div align="center" style="margin-bottom: 15px;">
+        <img src="https://img.shields.io/badge/CORE%20ENGINE-ACTIVE-00f2fe?style=for-the-badge&logo=cpu" alt="Core Engine Badge" />
+      </div>
+      <p style="color: #00f2fe; font-size: 14px; font-weight: bold; margin: 0 0 10px 0; letter-spacing: 1px;">⚡ [SYS_CORE_INITIALIZED]</p>
+      
+      <div style="background-color: #030712; border-left: 4px solid #7c3aed; padding: 12px; border-radius: 6px; margin-bottom: 15px;">
+        <code style="color: #a78bfa; font-size: 12px;"><b>▶ VEXARENT MODULE</b></code><br>
+        <code style="color: #38bdf8; font-size: 11px;">status = [ACTIVE COFOUNDER]</code>
+      </div>
+      
+      <div style="background-color: #030712; border-left: 4px solid #00f2fe; padding: 12px; border-radius: 6px; margin-bottom: 15px;">
+        <code style="color: #67e8f9; font-size: 12px;"><b>▶ CONCURRENCY EXECUTION</b></code><br>
+        <code style="color: #38bdf8; font-size: 11px;">tracking = [ENGAGED (RIDEFLOW)]</code>
+      </div>
+      
+      <div style="background-color: #030712; border-left: 4px solid #10b981; padding: 12px; border-radius: 6px; margin-bottom: 15px;">
+        <code style="color: #34d399; font-size: 12px;"><b>▶ ECOSYSTEM ARCHITECTURE</b></code><br>
+        <code style="color: #38bdf8; font-size: 11px;">control = [TRANSPARENT (HOUSEHUNT)]</code>
+      </div>
+
+      <p style="color: #a78bfa; font-size: 13px; font-weight: bold; margin: 15px 0 5px 0;">🛡️ GLOBAL CAMPAIGNS REGISTERED:</p>
+      <ul style="color: #94a3b8; font-size: 12px; margin: 0; padding-left: 20px; line-height: 1.6;">
+        <li><span style="color: #00f2fe;">✨ Guinness World Record</span> AI Thread</li>
+        <li><span style="color: #10b981;">🥇 Nodal Gold Medalist</span> Kabaddi Tier</li>
+        <li><span style="color: #a78bfa;">🔒 ServiceNow University</span> Certified</li>
+      </ul>
     </td>
-    <!-- Right Column: Interactive User Diagnostics Panel Box -->
-    <td width="60%" valign="top" style="background-color: #0F172A; border: 2px solid #7C3AED; padding: 20px; border-radius: 12px; box-shadow: 0 0 25px rgba(124, 58, 237, 0.35);">
-      <div style="margin-bottom: 12px;">
-        <span style="display: inline-block; width: 12px; height: 12px; background-color: #EF4444; border-radius: 50%; margin-right: 6px;"></span>
-        <span style="display: inline-block; width: 12px; height: 12px; background-color: #F59E0B; border-radius: 50%; margin-right: 6px;"></span>
-        <span style="display: inline-block; width: 12px; height: 12px; background-color: #10B981; border-radius: 50%; margin-right: 15px;"></span>
-        <span style="color: #94A3B8; font-family: monospace; font-size: 13px;">vanshvidhit @ mainframes</span>
+
+    <!-- Spacer Column -->
+    <td width="4%">&nbsp;</td>
+
+    <!-- Right Module: Cyber Diagnostics Controller -->
+    <td width="48%" valign="top" style="background: linear-gradient(135deg, #0f172a 0%, #090d16 100%); border: 2px solid #7c3aed; box-shadow: 0 0 25px rgba(124, 58, 237, 0.2); border-radius: 16px; padding: 24px; font-family: system-ui, sans-serif;">
+      <div style="margin-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 8px;">
+        <span style="display: inline-block; width: 10px; height: 10px; background-color: #ef4444; border-radius: 50%; margin-right: 6px;"></span>
+        <span style="display: inline-block; width: 10px; height: 10px; background-color: #f59e0b; border-radius: 50%; margin-right: 6px;"></span>
+        <span style="display: inline-block; width: 10px; height: 10px; background-color: #10b981; border-radius: 50%; margin-right: 12px;"></span>
+        <code style="color: #94a3b8; font-family: monospace; font-size: 12px;">vanshvidhit @ mainframes</code>
       </div>
-      <p style="color: #94A3B8; font-family: monospace; font-size: 14px; margin: 5px 0;">$ finger vanshvidhit</p>
-      <h2 style="color: #FFFFFF; font-family: sans-serif; margin: 5px 0 10px 0; font-size: 26px;">Hi, I'm Vidhit Vansh</h2>
-      <!-- Dynamic Active Role Terminal Stream Indicator -->
-      <p style="color: #22D3EE; font-family: monospace; font-size: 16px; font-weight: bold; margin: 5px 0;">&gt; Role: <span style="color: #F8FAFC;">Full-Stack MERN Architect / Startup Co-Founder</span></p>
-      <div style="color: #94A3B8; font-family: sans-serif; font-size: 14px; line-height: 1.6; margin: 15px 0;">
-        📍 <b style="color: #F8FAFC;">Location:</b> Bhopal, MP, India<br>
-        🎓 <b style="color: #F8FAFC;">Education:</b> B.Tech in CSE Core @ LNCT Group (2027)<br>
-        🚀 <b style="color: #F8FAFC;">Current Focus:</b> Low-Latency Dispatch Engine Integrations<br>
-        📧 <b style="color: #F8FAFC;">Email:</b> vidhitvanshofficial@gmail.com
+      
+      <code style="color: #64748b; font-family: monospace; font-size: 13px; display: block; margin-bottom: 5px;">$ finger vanshvidhit</code>
+      <h2 style="color: #ffffff; margin: 0 0 5px 0; font-size: 28px; font-weight: 800; background: linear-gradient(to right, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Hi, I'm Vidhit Vansh</h2>
+      
+      <p style="color: #00f2fe; font-family: monospace; font-size: 15px; font-weight: bold; margin: 5px 0 15px 0;">
+        &gt; <span style="color: #f8fafc; background: rgba(0, 242, 254, 0.1); padding: 2px 6px; border-radius: 4px;">Full-Stack MERN Architect</span>
+      </p>
+
+      <div style="color: #cbd5e1; font-size: 13px; line-height: 1.8; font-family: monospace;">
+        📍 <span style="color: #94a3b8;">Location:</span> <b style="color: #fff;">Bhopal, MP, India</b><br>
+        🎓 <span style="color: #94a3b8;">Education:</span> <b style="color: #fff;">B.Tech CSE Core @ LNCT Group (2027)</b><br>
+        🚀 <span style="color: #94a3b8;">Current Focus:</span> <b style="color: #00f2fe;">Low-Latency Frameworks</b><br>
+        📧 <span style="color: #94a3b8;">Email:</span> <a href="mailto:vidhitvanshofficial@gmail.com" style="color: #a78bfa; text-decoration: none;">vidhitvanshofficial@gmail.com</a>
       </div>
-      <div style="margin-top: 15px; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 12px;">
-        <p style="color: #94A3B8; font-family: monospace; font-size: 12px; margin: 0;">// Continuous integration pipelines online</p>
+
+      <div style="margin-top: 20px; text-align: right;">
+        <code style="color: #475569; font-size: 11px;">// continuous_integration = online</code>
       </div>
     </td>
   </tr>
