@@ -1,19 +1,16 @@
-<p align="center">
-  <img src="header.svg" width="100%" alt="System Architecture Core Dashboard" />
-</p>
+# 🌟 Vidhit Vansh — Engineering the Future through Full-Stack & AI Innovation
 
-<div align="center">
-  <!-- Restored Dynamic Waving Banner Header -->
-  <img src="https://capsule-render.vercel.app/type=waving&color=gradient&customColorList=00f2fe,4facfe&height=180&section=header&text=VIDHIT%20VANSH&fontSize=65&fontColor=ffffff&animation=twinkling&fontAlignY=45" width="100%" alt="Cyber Horizon Banner" />
-</div>
+<h3 align="center">
+  <b>Co-Founder @ VexaRent | Full-Stack MERN Developer | Lead Event Coordinator | Guinness World Record Campaign Achiever | Nodal Gold Medalist @ Kabaddi | Technical Event Extraordinaire | LNCT Student Leader</b>
+</h3>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
 </p>
 
-<!-- 🚀 Restored Dynamic Typing Matrix Console Loop 🚀 -->
+<!-- 🚀 High-Performance Dynamic Typing Console Loop 🚀 -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=850&lines=Hi+there!+%F0%9F%91%8B+I'm+Vidhit+Vansh;Full+Stack+MERN+Architect;Co-Founder+at+VexaRent+🏆;Open+Source+%26+Event+Leader" alt="Typing Matrix Stream" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2E9EF7&center=true&vCenter=true&width=850&lines=Hi+there!+I'm+Vidhit+Vansh;Full+Stack+MERN+Architect;Co-Founder+at+VexaRent;Open+Source+%26+Event+Leader" alt="Typing Matrix Stream" />
 </p>
 
 <div align="center">
@@ -187,7 +184,6 @@
 ## 📈 Real-Time Activity Pulse Graph
 <p align="center">
   <a href="https://github.com/vanshvidhit" target="_blank">
-    <!-- Restored Active Pulse Graph Engine -->
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" width="100%" alt="Commitment Flow Graph" />
   </a>
 </p>
@@ -198,12 +194,5 @@
 
 ### ✍️ Random Dev Quote
 <p align="center">
-  <!-- Restored Dev Quote Node Element -->
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Dev Quote Badge" />
-</p>
-
----
-<p align="center">
-  <!-- Hyper-reliable visitor telemetry badge node -->
-  <img src="https://profile-counter.glitch.me/vanshvidhit/count.svg" alt="Active Profile Telemetry Hub" height="35" />
 </p>
