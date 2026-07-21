@@ -1,75 +1,43 @@
-<!-- 🚀 DYNAMIC SYSTEMS CORE ACTIVE BANNER AREA 🚀 -->
+<!-- 🛡️ ANIMATED CYBER-GRID HUD CANVAS HEADER 🛡️ -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=800&color=00F2FE&center=true&vCenter=true&width=850&lines=WELCOME+TO+MY+DIGITAL+WORKSPACE;%E2%9A%A1+SYSTEMS+CORE+ACTIVE+%E2%9A%A1" alt="Dynamic Console Welcome Stream" />
+  <img src="https://capsule-render.vercel.app/type=cyber&color=0d1117,7c3aed,10b981&height=220&section=header&text=VIDHIT%20VANSH&fontSize=65&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%" alt="Cyber HUD Canvas Header" />
 </p>
 
-<!-- 🕹️ THE VISUAL SYSTEM CORE FRAME MATRIX DASHBOARD 🕹 -->
-<table width="100%">
+<!-- ⚡ EXECUTIVE DUAL SPOTLIGHT CARDS ⚡ -->
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
   <tr>
-    <!-- Left Column: System Architecture Terminal Log Box -->
-    <td width="40%" valign="top" style="background-color: #030712; border: 2px solid #22D3EE; padding: 20px; border-radius: 12px; box-shadow: 0 0 20px rgba(34, 211, 238, 0.25);">
-      <p align="center" style="color: #22D3EE; font-family: monospace; font-weight: bold; margin-top: 0;">⚡■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■⚡</p>
-      <p style="color: #22D3EE; font-family: monospace; font-size: 13px; font-weight: bold; margin: 5px 0;">🤖 [SYSTEM ARCHITECTURE CORE INITIALIZED]</p>
-      <pre style="color: #7C3AED; font-family: monospace; font-size: 11px; font-weight: bold; line-height: 1.2; margin: 10px 0; background: transparent; border: none;">
-  __   __  _      _   _  _   
-  \ \ / / (_) __| | | |_| |__  
-   \ V /  | |/ _` | | __| '_ \ 
-    \_/   |_|\__,_| |_| |_| |_|
-      </pre>
-      <p style="color: #22D3EE; font-family: monospace; font-size: 12px; margin: 6px 0;">▶ VEXARENT MODULE = [ACTIVE COFOUNDER]</p>
-      <p style="color: #22D3EE; font-family: monospace; font-size: 12px; margin: 6px 0;">▶ CONCURRENCY TRACKING = [ENGAGED (RIDEFLOW)]</p>
-      <p style="color: #22D3EE; font-family: monospace; font-size: 12px; margin: 6px 0;">▶ ECOSYSTEM CONTROL = [TRANSPARENT (HOUSEHUNT)]</p>
-      <p style="color: #7C3AED; font-family: monospace; font-size: 12px; font-weight: bold; margin: 12px 0 4px 0;">🛡️ GLOBAL ATTAINMENTS RECORDED:</p>
-      <p style="color: #10B981; font-family: monospace; font-size: 12px; margin: 4px 0 4px 15px;">├─ [GUINNESS WORLD RECORD CAMPAIGN THREAD]</p>
-      <p style="color: #10B981; font-family: monospace; font-size: 12px; margin: 4px 0 4px 15px;">├─ [NODAL KABADDI GOLD MEDALIST TIER]</p>
-      <p style="color: #10B981; font-family: monospace; font-size: 12px; margin: 4px 0 4px 15px;">└─ [SERVICENOW UNIVERSITY CERTIFIED DATA]</p>
-      <p align="center" style="color: #22D3EE; font-family: monospace; font-weight: bold; margin-bottom: 0;">⚡■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■⚡</p>
+    <td width="50%" valign="top" style="background-color: #0d1117; border: 1.5px solid #7c3aed; padding: 18px; border-radius: 10px; box-shadow: 0 0 15px rgba(124, 58, 237, 0.2);">
+      <h3 style="color: #a78bfa; margin-top:0;">🚀 Startup & Tech Leadership</h3>
+      <p style="color: #c9d1d9; font-size: 13.5px; line-height: 1.5;">Architecting core digital infrastructure, real-time dispatch systems, and service fee models for <b>VexaRent</b> and MERN ecosystem apps.</p>
+      <div style="margin-top: 10px;">
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+        <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" />
+      </div>
     </td>
-    <!-- Right Column: Interactive User Diagnostics Panel Box -->
-    <td width="60%" valign="top" style="background-color: #0F172A; border: 2px solid #7C3AED; padding: 20px; border-radius: 12px; box-shadow: 0 0 25px rgba(124, 58, 237, 0.35);">
-      <div style="margin-bottom: 12px;">
-        <span style="display: inline-block; width: 12px; height: 12px; background-color: #EF4444; border-radius: 50%; margin-right: 6px;"></span>
-        <span style="display: inline-block; width: 12px; height: 12px; background-color: #F59E0B; border-radius: 50%; margin-right: 6px;"></span>
-        <span style="display: inline-block; width: 12px; height: 12px; background-color: #10B981; border-radius: 50%; margin-right: 15px;"></span>
-        <span style="color: #94A3B8; font-family: monospace; font-size: 13px;">vanshvidhit @ mainframes</span>
-      </div>
-      <p style="color: #94A3B8; font-family: monospace; font-size: 14px; margin: 5px 0;">$ finger vanshvidhit</p>
-      <h2 style="color: #FFFFFF; font-family: sans-serif; margin: 5px 0 10px 0; font-size: 26px;">Hi, I'm Vidhit Vansh</h2>
-      <!-- Dynamic Active Role Terminal Stream Indicator -->
-      <p style="color: #22D3EE; font-family: monospace; font-size: 16px; font-weight: bold; margin: 5px 0;">&gt; Role: <span style="color: #F8FAFC;">Full-Stack MERN Architect / Startup Co-Founder</span></p>
-      <div style="color: #94A3B8; font-family: sans-serif; font-size: 14px; line-height: 1.6; margin: 15px 0;">
-        📍 <b style="color: #F8FAFC;">Location:</b> Bhopal, MP, India<br>
-        🎓 <b style="color: #F8FAFC;">Education:</b> B.Tech in CSE Core @ LNCT Group (2027)<br>
-        🚀 <b style="color: #F8FAFC;">Current Focus:</b> Low-Latency Dispatch Engine Integrations<br>
-        📧 <b style="color: #F8FAFC;">Email:</b> vidhitvanshofficial@gmail.com
-      </div>
-      <div style="margin-top: 15px; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 12px;">
-        <p style="color: #94A3B8; font-family: monospace; font-size: 12px; margin: 0;">// Continuous integration pipelines online</p>
+    <td width="2%">&nbsp;</td>
+    <td width="48%" valign="top" style="background-color: #0d1117; border: 1.5px solid #10b981; padding: 18px; border-radius: 10px; box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);">
+      <h3 style="color: #10b981; margin-top:0;">🏆 Global & Athletics Milestones</h3>
+      <p style="color: #c9d1d9; font-size: 13.5px; line-height: 1.5;">Guinness World Record Campaign Achiever, Nodal Gold Medalist in Kabaddi, and Lead Event Coordinator for SIH, TEDx, and GDSC.</p>
+      <div style="margin-top: 10px;">
+        <img src="https://img.shields.io/badge/ServiceNow-Certified-293E40?style=flat-square&logo=servicenow&logoColor=white" />
+        <img src="https://img.shields.io/badge/LNCT-Leader-7c3aed?style=flat-square" />
       </div>
     </td>
   </tr>
 </table>
 
-<h1 align="center">🌟 Vidhit Vansh — Engineering the Future through Full-Stack & AI Innovation</h1>
+<br>
 
-<h3 align="center">
-  <b>Co-Founder @ VexaRent | Full-Stack MERN Developer | Lead Event Coordinator | Guinness World Record Campaign Achiever | Nodal Gold Medalist @ Kabaddi | Technical Event Extraordinaire | LNCT Student Leader</b>
-</h3>
+<!-- 🖥️ LIVE MATRIX TERMINAL DIAGNOSTICS CONSOLE 🖥️ -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=16&pause=1000&color=10B981&center=true&vCenter=true&width=850&height=40&lines=%3F+SYSTEM_DIAGNOSTICS+%3A%3A+MERN+Architect+%2B+VexaRent+Co-Founder;%E2%9A%A1+STATUS+%3A%3A+Building+RideFlow+Low-Latency+Dispatch+Engine;%F0%9F%9B%A1%EF%B8%8F+CERTIFIED+%3A%3A+ServiceNow+Professional+%2B+Guinness+World+Record+Holder&v=6" alt="Live Matrix Terminal Stream" />
+</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Laser Accent Line" width="100%">
 </p>
-
-<!-- 🚀 Restored Dynamic Typing Matrix Console Loop 🚀 -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2E9EF7&center=true&vCenter=true&width=850&lines=Hi+there!+I'm+Vidhit+Vansh;Full+Stack+MERN+Architect;Co-Founder+at+VexaRent;Open+Source+%26+Event+Leader" alt="Typing Matrix Stream" />
-</p>
-
-<div align="center">
-  <a href="https://github.com/vanshvidhit" target="_blank">
-    <img src="https://img.shields.io/badge/Explore%20Active%20Systems-Click%20Here-6f42c1?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a1a&color=00c853" alt="GitHub Badge" style="border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);">
-  </a>
-</div>
 
 # 👋 Hi, I'm **Vidhit Vansh**
 
@@ -165,9 +133,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake-dark.svg?v=6" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg?v=6" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg?v=6" width="100%" />
   </picture>
 </p>
 
@@ -189,13 +157,13 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vidhit-vansh-9398a5295" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="50" alt="LinkedIn Node" />
+    <img src="https://skillicons.dev/icons?i=linkedin&v=6" height="50" alt="LinkedIn Node" />
   </a>
   <a href="https://github.com/vanshvidhit" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" height="50" alt="GitHub Node" />
+    <img src="https://skillicons.dev/icons?i=github&v=6" height="50" alt="GitHub Node" />
   </a>
   <a href="mailto:vidhitvanshofficial@gmail.com" target="_blank">
-    <img src="https://skillicons.dev/icons?i=gmail" height="50" alt="Email Node" />
+    <img src="https://skillicons.dev/icons?i=gmail&v=6" height="50" alt="Email Node" />
   </a>
 </p>
 
@@ -206,15 +174,15 @@
 ## 💻 Tech Stack & Skills  
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,nodejs,express,mongodb,mysql,sqlite,firebase,py,c,cpp,java,git,github,vscode,postman,figma,linux,windows,bash" alt="My Tech Stack Matrix" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,nodejs,express,mongodb,mysql,sqlite,firebase,py,c,cpp,java,git,github,vscode,postman,figma,linux,windows,bash&v=6" alt="My Tech Stack Matrix" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.io Integration Badge" />
-  <img src="https://img.shields.io/badge/ServiceNow-293E40?style=for-the-badge&logo=servicenow&logoColor=white" alt="ServiceNow Badge" />
-  <img src="https://img.shields.io/badge/MERN_Stack-20232a?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="MERN Framework Badge" />
+  <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&logoColor=white&v=6" alt="Socket.io Integration Badge" />
+  <img src="https://img.shields.io/badge/ServiceNow-293E40?style=for-the-badge&logo=servicenow&logoColor=white&v=6" alt="ServiceNow Badge" />
+  <img src="https://img.shields.io/badge/MERN_Stack-20232a?style=for-the-badge&logo=react&logoColor=%2361DAFB&v=6" alt="MERN Framework Badge" />
 </p>
 
 <p align="center">
@@ -224,19 +192,19 @@
 ## 📊 Profile Metrics Network
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Contributions-45-blue?style=for-the-badge&logo=github" alt="Contributions Tracker" />
-  <img src="https://img.shields.io/badge/Current%20Streak-1%20Day-orange?style=for-the-badge&logo=lightning" alt="Activity Streak Tracker" />
-  <img src="https://img.shields.io/badge/Longest%20Streak-3%20Days-brightgreen?style=for-the-badge" alt="Peak Streak Milestone" />
+  <img src="https://img.shields.io/badge/Total%20Contributions-45-blue?style=for-the-badge&logo=github&v=6" alt="Contributions Tracker" />
+  <img src="https://img.shields.io/badge/Current%20Streak-1%20Day-orange?style=for-the-badge&logo=lightning&v=6" alt="Activity Streak Tracker" />
+  <img src="https://img.shields.io/badge/Longest%20Streak-3%20Days-brightgreen?style=for-the-badge&v=6" alt="Peak Streak Milestone" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vanshvidhit&color=2E9EF7" height="35" alt="Active Profile Traffic Tracker" />
+  <img src="https://komarev.com/ghpvc/?username=vanshvidhit&color=7C3AED&v=6" height="35" alt="Active Profile Traffic Tracker" />
 </p>
 
 ## 📈 Real-Time Activity Pulse Graph
 <p align="center">
   <a href="https://github.com/vanshvidhit" target="_blank">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117" width="100%" alt="Commitment Flow Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117&v=6" width="100%" alt="Commitment Flow Graph" />
   </a>
 </p>
 
@@ -246,11 +214,10 @@
 
 ### ✍️ Random Dev Quote
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Dev Quote Badge" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&v=6" alt="Dynamic Dev Quote Badge" />
 </p>
 
 ---
 <p align="center">
-  <!-- Whitelisted High-Performance Telemetry Hub Badge Vector -->
-  <img src="https://img.shields.io/badge/TELEMETRY--HUB-ESTABLISHED-00c853?style=for-the-badge&logo=opsgenie&logoColor=white" alt="Active Profile Telemetry Hub" />
+  <img src="https://img.shields.io/badge/TELEMETRY--HUB-ESTABLISHED-10b981?style=for-the-badge&logo=opsgenie&logoColor=white&v=6" alt="Active Profile Telemetry Hub" />
 </p>
