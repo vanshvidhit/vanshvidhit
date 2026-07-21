@@ -1,7 +1,35 @@
-<!-- 🚀 DYNAMIC SYSTEMS CORE ACTIVE BANNER AREA 🚀 -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=800&color=00F2FE&center=true&vCenter=true&width=850&lines=WELCOME+TO+MY+DIGITAL+WORKSPACE;%E2%9A%A1+SYSTEMS+CORE+ACTIVE+%E2%9A%A1&v=4" alt="Dynamic Console Welcome Stream" />
-</p>
+<!-- 🛡️ TACTICAL SYSTEM IDENTITY HUD (DEEP TECH PALETTE) 🛡️ -->
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;">
+  <tr>
+    <td width="100%" style="background: linear-gradient(135deg, #0d1117 0%, #161b22 100%); border: 1.5px solid #7c3aed; box-shadow: 0 0 20px rgba(124, 58, 237, 0.25); border-radius: 12px; padding: 20px; font-family: 'Segoe UI', system-ui, sans-serif;">
+      
+      <!-- Top Window Controls -->
+      <div style="margin-bottom: 12px;">
+        <span style="display: inline-block; width: 10px; height: 10px; background-color: #ef4444; border-radius: 50%; margin-right: 6px;"></span>
+        <span style="display: inline-block; width: 10px; height: 10px; background-color: #f59e0b; border-radius: 50%; margin-right: 6px;"></span>
+        <span style="display: inline-block; width: 10px; height: 10px; background-color: #10b981; border-radius: 50%; margin-right: 12px;"></span>
+        <code style="color: #8b949e; font-family: monospace; font-size: 12px;">vanshvidhit @ mainframes ~ system_init</code>
+      </div>
+
+      <!-- Identity Header -->
+      <h1 style="color: #ffffff; margin: 0 0 6px 0; font-size: 32px; font-weight: 800;">Vidhit Vansh</h1>
+      <p style="color: #a78bfa; font-family: monospace; font-size: 15px; font-weight: bold; margin: 0 0 16px 0;">
+        Full-Stack MERN Architect &nbsp;|&nbsp; MSME Startup Co-Founder &nbsp;|&nbsp; Student Leader
+      </p>
+
+      <!-- System Quick Specs -->
+      <div style="color: #c9d1d9; font-size: 13px; line-height: 1.8; font-family: monospace; background: #010409; padding: 12px 16px; border-radius: 8px; border-left: 3px solid #10b981;">
+        📍 <b>Location:</b> Bhopal, MP, India <br>
+        🎓 <b>Education:</b> B.Tech in CSE Core @ LNCT Group (2027) <br>
+        🚀 <b>Core Focus:</b> Low-Latency Dispatch Engines & Real-Time Logistics Infrastructure <br>
+        📧 <b>Contact:</b> <a href="mailto:vidhitvanshofficial@gmail.com" style="color: #10b981; text-decoration: none;">vidhitvanshofficial@gmail.com</a>
+      </div>
+
+    </td>
+  </tr>
+</table>
+
+<br>
 
 <!-- ⚡ EXECUTIVE DUAL SPOTLIGHT CARDS ⚡ -->
 <table width="100%">
@@ -11,8 +39,8 @@
       <p style="color: #c9d1d9;">Architecting core digital infrastructure, real-time dispatch systems, and service fee models for <b>VexaRent</b> and MERN ecosystem apps.</p>
       <code>React</code> <code>Node.js</code> <code>MongoDB</code> <code>Socket.io</code>
     </td>
-    <td width="50%" valign="top" style="background-color: #0d1117; border: 1px solid #00f2fe; padding: 18px; border-radius: 10px;">
-      <h3 style="color: #00f2fe; margin-top:0;">🏆 Global & Athletics Milestones</h3>
+    <td width="50%" valign="top" style="background-color: #0d1117; border: 1px solid #10b981; padding: 18px; border-radius: 10px;">
+      <h3 style="color: #10b981; margin-top:0;">🏆 Global & Athletics Milestones</h3>
       <p style="color: #c9d1d9;">Guinness World Record Campaign Achiever, Nodal Gold Medalist in Kabaddi, and Lead Event Coordinator for SIH, TEDx, and GDSC.</p>
       <code>ServiceNow Cert</code> <code>LNCT Leader</code>
     </td>
@@ -117,9 +145,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake-dark.svg?v=4" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg?v=4" />
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg?v=4" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake-dark.svg?v=5" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg?v=5" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/vanshvidhit/vanshvidhit/output/github-contribution-grid-snake.svg?v=5" width="100%" />
   </picture>
 </p>
 
@@ -141,13 +169,13 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vidhit-vansh-9398a5295" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin&v=4" height="50" alt="LinkedIn Node" />
+    <img src="https://skillicons.dev/icons?i=linkedin&v=5" height="50" alt="LinkedIn Node" />
   </a>
   <a href="https://github.com/vanshvidhit" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github&v=4" height="50" alt="GitHub Node" />
+    <img src="https://skillicons.dev/icons?i=github&v=5" height="50" alt="GitHub Node" />
   </a>
   <a href="mailto:vidhitvanshofficial@gmail.com" target="_blank">
-    <img src="https://skillicons.dev/icons?i=gmail&v=4" height="50" alt="Email Node" />
+    <img src="https://skillicons.dev/icons?i=gmail&v=5" height="50" alt="Email Node" />
   </a>
 </p>
 
@@ -158,15 +186,15 @@
 ## 💻 Tech Stack & Skills  
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,nodejs,express,mongodb,mysql,sqlite,firebase,py,c,cpp,java,git,github,vscode,postman,figma,linux,windows,bash&v=4" alt="My Tech Stack Matrix" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,nodejs,express,mongodb,mysql,sqlite,firebase,py,c,cpp,java,git,github,vscode,postman,figma,linux,windows,bash&v=5" alt="My Tech Stack Matrix" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&logoColor=white&v=4" alt="Socket.io Integration Badge" />
-  <img src="https://img.shields.io/badge/ServiceNow-293E40?style=for-the-badge&logo=servicenow&logoColor=white&v=4" alt="ServiceNow Badge" />
-  <img src="https://img.shields.io/badge/MERN_Stack-20232a?style=for-the-badge&logo=react&logoColor=%2361DAFB&v=4" alt="MERN Framework Badge" />
+  <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&logoColor=white&v=5" alt="Socket.io Integration Badge" />
+  <img src="https://img.shields.io/badge/ServiceNow-293E40?style=for-the-badge&logo=servicenow&logoColor=white&v=5" alt="ServiceNow Badge" />
+  <img src="https://img.shields.io/badge/MERN_Stack-20232a?style=for-the-badge&logo=react&logoColor=%2361DAFB&v=5" alt="MERN Framework Badge" />
 </p>
 
 <p align="center">
@@ -176,19 +204,19 @@
 ## 📊 Profile Metrics Network
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Contributions-45-blue?style=for-the-badge&logo=github&v=4" alt="Contributions Tracker" />
-  <img src="https://img.shields.io/badge/Current%20Streak-1%20Day-orange?style=for-the-badge&logo=lightning&v=4" alt="Activity Streak Tracker" />
-  <img src="https://img.shields.io/badge/Longest%20Streak-3%20Days-brightgreen?style=for-the-badge&v=4" alt="Peak Streak Milestone" />
+  <img src="https://img.shields.io/badge/Total%20Contributions-45-blue?style=for-the-badge&logo=github&v=5" alt="Contributions Tracker" />
+  <img src="https://img.shields.io/badge/Current%20Streak-1%20Day-orange?style=for-the-badge&logo=lightning&v=5" alt="Activity Streak Tracker" />
+  <img src="https://img.shields.io/badge/Longest%20Streak-3%20Days-brightgreen?style=for-the-badge&v=5" alt="Peak Streak Milestone" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vanshvidhit&color=2E9EF7&v=4" height="35" alt="Active Profile Traffic Tracker" />
+  <img src="https://komarev.com/ghpvc/?username=vanshvidhit&color=7C3AED&v=5" height="35" alt="Active Profile Traffic Tracker" />
 </p>
 
 ## 📈 Real-Time Activity Pulse Graph
 <p align="center">
   <a href="https://github.com/vanshvidhit" target="_blank">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117&v=4" width="100%" alt="Commitment Flow Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshvidhit&theme=tokyonight&hide_border=true&background=0d1117&v=5" width="100%" alt="Commitment Flow Graph" />
   </a>
 </p>
 
@@ -198,10 +226,10 @@
 
 ### ✍️ Random Dev Quote
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&v=4" alt="Dynamic Dev Quote Badge" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&v=5" alt="Dynamic Dev Quote Badge" />
 </p>
 
 ---
 <p align="center">
-  <img src="https://img.shields.io/badge/TELEMETRY--HUB-ESTABLISHED-00c853?style=for-the-badge&logo=opsgenie&logoColor=white&v=4" alt="Active Profile Telemetry Hub" />
+  <img src="https://img.shields.io/badge/TELEMETRY--HUB-ESTABLISHED-10b981?style=for-the-badge&logo=opsgenie&logoColor=white&v=5" alt="Active Profile Telemetry Hub" />
 </p>
