@@ -1,29 +1,39 @@
-<!-- ⚡ TERMINAL BOOT SEQUENCE ⚡ -->
+<!-- 🛡️ IRON MAN / JARVIS HUD HEADER 🛡️ -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&pause=1000&color=00F2FE&center=true&vCenter=true&width=800&lines=Initializing...;Loading+Developer%3A+Vidhit+Vansh...;Loading+Startup%3A+VexaRent...;Loading+Live+Systems...;System+Ready." alt="Terminal Boot Sequence" />
+  <img src="https://capsule-render.vercel.app/type=cyber&color=00f2fe,7c3aed&height=220&section=header&text=VIDHIT%20VANSH%20::%20JARVIS%20HUD&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=40" width="100%" alt="JARVIS HUD Interface" />
 </p>
 
-<!-- 🟢 LIVE DEVELOPER TELEMETRY DASHBOARD (UPDATED VIA GITHUB ACTIONS) -->
+<!-- 🧠 LIVE NEURAL NETWORK STREAM 🧠 -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&pause=1000&color=00F2FE&center=true&vCenter=true&width=850&lines=%5BNEURAL_LINK_ESTABLISHED%5D;JARVIS%3A+Analyzing+Vidhit's+System+Telemetry...;Co-Founder+%40+VexaRent+::+MSME+Logistics+Node;Architecting+RideFlow+::+Low-Latency+Socket.io+Dispatch;Status%3A+All+Subsystems+Nominal" alt="Neural Link Stream" />
+</p>
+
+<!-- ⚡ DATA PACKET ANIMATION TRANSIT ⚡ -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Data Packet Transit Pipeline" width="100%">
+</p>
+
+<!-- 📊 ANIMATED LIVE TELEMETRY DASHBOARD (PERSONALIZED) -->
 <table width="100%">
   <tr>
-    <td width="33%" align="center" style="background-color: #0d1117; border: 1px solid #30363d; padding: 12px; border-radius: 8px;">
-      <b>🟢 CURRENT FOCUS</b><br>
-      <sub style="color: #00f2fe; font-size: 13px;">RideFlow Backend</sub>
+    <td width="33%" align="center" style="background-color: #0d1117; border: 1px solid #00f2fe; padding: 12px; border-radius: 8px;">
+      <b>🟢 ACTIVE CORE MODULE</b><br>
+      <sub style="color: #00f2fe; font-size: 13px;">RideFlow Dispatch API</sub>
     </td>
-    <td width="33%" align="center" style="background-color: #0d1117; border: 1px solid #30363d; padding: 12px; border-radius: 8px;">
-      <b>🎯 CURRENT GOAL</b><br>
-      <sub style="color: #a78bfa; font-size: 13px;">Driver Matching API</sub>
+    <td width="33%" align="center" style="background-color: #0d1117; border: 1px solid #7c3aed; padding: 12px; border-radius: 8px;">
+      <b>🎯 CURRENT SPRINT GOAL</b><br>
+      <sub style="color: #a78bfa; font-size: 13px;">Socket.io Latency Optimization</sub>
     </td>
-    <td width="33%" align="center" style="background-color: #0d1117; border: 1px solid #30363d; padding: 12px; border-radius: 8px;">
-      <b>☕ FUEL & MOOD</b><br>
-      <sub style="color: #10b981; font-size: 13px;">12 Cups ☕ | Building...</sub>
+    <td width="33%" align="center" style="background-color: #0d1117; border: 1px solid #10b981; padding: 12px; border-radius: 8px;">
+      <b>⚡ TELEMETRY METRICS</b><br>
+      <sub style="color: #10b981; font-size: 13px;">12 Cups ☕ | MSME MOU Signed</sub>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <a href="https://github.com/vanshvidhit">
-    <img src="https://img.shields.io/badge/LIVE%20SYSTEM%20TELEMETRY-AUTO%20UPDATED%20VIA%20GITHUB%20ACTIONS-00c853?style=for-the-badge&logo=githubactions&logoColor=white" alt="Live Telemetry Badge" />
+    <img src="https://img.shields.io/badge/JARVIS%20HUD-AUTO%20UPDATED%20VIA%20GITHUB%20ACTIONS-00c853?style=for-the-badge&logo=githubactions&logoColor=white" alt="Live Telemetry Badge" />
   </a>
 </p>
 
